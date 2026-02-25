@@ -1,1 +1,0 @@
-python -m VLM.run_batch_inference --repo-root . --model gemma-3  
