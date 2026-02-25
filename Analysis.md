@@ -2,14 +2,14 @@
 
 ## Results Summary
 
-| Model | Code Pass | Median vol_rel | Median hausdorff | Median xi_l2 | p_value > 0 |
+| Model | Code Pass | Median vol_rel | Median hausdorff | Median $\xi_{L2}(r)$ | p_value > 0 |
 |---|---|---|---|---|---|
 | **Qwen2.5-VL-72B** | **98%** | 0.43 | 26.65 | 43.21 | 0 / 98 |
 | **GPT-4o** | 77% | **0.30** | **20.07** | **33.33** | 1 / 77 |
 | Gemma-3-27B | 63% | 0.57 | 30.06 | 60.54 | 0 / 63 |
 | Claude-3.5-Sonnet | 7% | 0.65 | 24.52 | 62.82 | 0 / 7 |
 
-**On p_values:** essentially all are 0 across all models — the Fisher test is saturated, meaning every reconstructed shape is statistically distinguishable from ground truth. The only exception is one GPT-4o sample (`cube_with_beveled_corners`) which reaches p≈1 with hausdorff=0 and vol_rel=0 — a near-perfect reconstruction. The p_value is best treated as a "perfect match" detector rather than a graded similarity score; the continuous metrics (hausdorff, xi_l2) carry more information in the non-perfect regime.
+**On p-values:** essentially all are 0 across all models. The p-value test is saturated, meaning every reconstructed shape is statistically distinguishable from ground truth. The only exception is one GPT-4o sample (`cube_with_beveled_corners`, to see other results go to `/Analysis/results/view_comparison`) which reaches p≈1 with hausdorff=0 and vol_rel=0 indicating a near-perfect reconstruction. The p-value is best treated as a "perfect match" detector rather than a graded similarity score. The continuous metrics (hausdorff, $\xi_{L2}(r)$) carry more information in the non-perfect regime.
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Two distinct failure layers:**
 
-### Layer 1 — Code generation failures
+### Code generation failures
 
 | Model | Dominant error | Root cause |
 |---|---|---|
@@ -44,20 +44,17 @@
 | Gemma-3-27B | TypeError: hallucinated methods (10); ValueError: null geometry (13) | **API hallucination** — invents non-existent methods (`workplane(center=...)`, `polygon(points=...)`, `.octagon()`, `.transform()`); also produces geometrically invalid chains ("Null TopoDS_Shape", "Cannot find solid") |
 | Qwen2.5-VL-72B | 2 isolated failures | Near-perfect code generation |
 
-**CAD sequence generation is the bottleneck, not drawing extraction.** All models produce roughly the right shape class (a bracket looks like a bracket), which means visual feature extraction from the drawing works. The failures come in translating that understanding into valid, dimensionally-correct CadQuery chains.
+**CAD sequence generation seems to be the main bottleneck, not drawing extraction.** All models produce roughly the right shape class (a bracket looks like a bracket), which means visual feature extraction from the drawing works. The failures come in translating that understanding into valid, dimensionally-correct CadQuery chains.
 
-### Layer 2 — Shape quality failures (in the successful runs)
+### Shape quality failure (in the successful runs)
 
-- **Dimensional inaccuracy**: median hausdorff 20–37 units across all models — models read the drawing qualitatively but don't extract precise dimensions from the annotations.
-- **Complex/repeated geometry breaks xi_l2**: the worst outliers are consistently parts with repeating features — `ribs_plate` (Qwen xi_l2 = 14,123), `hose_clamp_stainless` (Gemma xi_l2 = 2,297). CadQuery operations like `.array()`, `.polarArray()`, and `.shell()` are rarely generated correctly.
-- **Assembly-style parts fail silently**: multi-body geometries (`hose_clamp`, `crank_handle`) produce geometrically valid but wrong shapes — high hausdorff without a code error, because the model builds *a* shape but not the right one.
-- **Simple primitives nearly solved**: `cube_with_beveled_corners`, `hexagonal_washer`, `standoff_spacer` all show low hausdorff and xi_l2, confirming models handle single-extrusion/chamfer shapes well.
-
-**Summary of difficulty hierarchy** (easiest → hardest):
-> single extrude/chamfer → revolve/shell → boolean combination → dimensionally-precise threading/holes → repeated/arrayed features → multi-body assemblies
+- **Dimensional inaccuracy**: median hausdorff 20–37 units across all models implies the drawing qualitatively but don't extract precise dimensions from the annotations.
 
 ---
 
 ## 3. Strategic Roadmap
 
-The benchmark exposes two problems requiring different interventions. **Immediate fixes at the inference level** would dramatically change Claude's numbers (increase `max_tokens` to ≥4096 and add an explicit "output only executable Python, no markdown, no comments" instruction) and partially recover Gemma's API hallucinations via a system prompt with a canonical CadQuery cheatsheet and a few-shot example of correct step-by-step code. For the harder problem — dimensional accuracy and complex geometry — **supervised fine-tuning on (drawing image, ground-truth .py) pairs** is the critical next step: the model needs to learn to read tolerances and dimension annotations from the drawing, not just infer rough shape; this calls for chain-of-thought fine-tuning where the reasoning trace explicitly extracts each annotated dimension before writing a CadQuery line. Specific to repeated-feature failures, the fine-tuning dataset should oversample parts with `polarArray`, `shell`, and boolean operations, as these are the geometric classes where all models currently collapse. Starting from Qwen2.5-VL-72B as the base (highest code reliability) with LoRA fine-tuning on this dataset is the highest-leverage single action.
+The benchmark exposes two problems requiring different interventions. 
+
+
+ For the harder problem — dimensional accuracy and complex geometry — **supervised fine-tuning on (drawing image, ground-truth .py) pairs** is the critical next step: the model needs to learn to read tolerances and dimension annotations from the drawing, not just infer rough shape; this calls for chain-of-thought fine-tuning where the reasoning trace explicitly extracts each annotated dimension before writing a CadQuery line. Specific to repeated-feature failures, the fine-tuning dataset should oversample parts with `polarArray`, `shell`, and boolean operations, as these are the geometric classes where all models currently collapse. Starting from Qwen2.5-VL-72B as the base (highest code reliability) with LoRA fine-tuning on this dataset is the highest-leverage single action.
