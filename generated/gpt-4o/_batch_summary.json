@@ -1,0 +1,3037 @@
+{
+  "model": "openai/gpt-4o",
+  "model_dir": "generated/gpt-4o",
+  "mode": "batch",
+  "started_at": "2026-02-25T19:43:46.851164+00:00",
+  "total": 100,
+  "succeeded": 100,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "index": 1,
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033650_brass_spacer_tube_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033650_brass_spacer_tube_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.323094833642244,
+      "response_id": "gen-1772048627-DP1TBzWBxgSWc6gOIQ4q",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 118,
+        "total_tokens": 1332,
+        "cost": 0.004215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 2,
+      "sample_id": "20251218_033651_dowel_pin_brass_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033651_dowel_pin_brass_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033651_dowel_pin_brass_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.765242291148752,
+      "response_id": "gen-1772048631-KjH2fKujf9GUuJOZ5BCy",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 95,
+        "total_tokens": 1309,
+        "cost": 0.003985,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003985,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00095
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 3,
+      "sample_id": "20251218_033652_grip_handle_spacer_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033652_grip_handle_spacer_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033652_grip_handle_spacer_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.419142541941255,
+      "response_id": "gen-1772048635-qTtGxduvApDEbZr6vNAY",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 115,
+        "total_tokens": 1329,
+        "cost": 0.004185,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004185,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00115
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 4,
+      "sample_id": "20251218_033652_hook_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033652_hook_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033652_hook_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.8101585833355784,
+      "response_id": "gen-1772048639-VDq2HPnkqQOJC9YwYWT6",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 102,
+        "total_tokens": 1316,
+        "cost": 0.004055,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004055,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00102
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 5,
+      "sample_id": "20251218_033654__sliding_joint_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033654__sliding_joint_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033654__sliding_joint_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.784956042189151,
+      "response_id": "gen-1772048643-S5gN4Z6tcizS4m5Ly1S1",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 88,
+        "total_tokens": 1302,
+        "cost": 0.003915,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003915,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00088
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 6,
+      "sample_id": "20251218_033654_box_with_fillet_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033654_box_with_fillet_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033654_box_with_fillet_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.14518570760265,
+      "response_id": "gen-1772048647-3lvEITrURlwG5yvRxln1",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 65,
+        "total_tokens": 1279,
+        "cost": 0.003685,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003685,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00065
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 7,
+      "sample_id": "20251218_033654_cube_with_beveled_corners_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033654_cube_with_beveled_corners_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033654_cube_with_beveled_corners_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.376843999605626,
+      "response_id": "gen-1772048650-kwdqEAdGkD9hUgTAKrrC",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 65,
+        "total_tokens": 1279,
+        "cost": 0.003685,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003685,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00065
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 8,
+      "sample_id": "20251218_033655_pyramid_with_rounded_base_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033655_pyramid_with_rounded_base_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033655_pyramid_with_rounded_base_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.418151041958481,
+      "response_id": "gen-1772048653-e7jnsswhIaBxpywSo3x6",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 170,
+        "total_tokens": 1384,
+        "cost": 0.004735,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004735,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0017
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 9,
+      "sample_id": "20251218_033656__equipment_hanger_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033656__equipment_hanger_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033656__equipment_hanger_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.5335285840556026,
+      "response_id": "gen-1772048658-4VrRdho7EGneXO5IloJe",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 155,
+        "total_tokens": 1369,
+        "cost": 0.004585,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004585,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00155
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 10,
+      "sample_id": "20251218_033656_hexagonal_washer_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033656_hexagonal_washer_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033656_hexagonal_washer_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.9167446671053767,
+      "response_id": "gen-1772048662-NBiRxHObpJ4IJ2fPj7tQ",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 92,
+        "total_tokens": 1306,
+        "cost": 0.003955,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003955,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00092
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 11,
+      "sample_id": "20251218_033656_hollow_cube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033656_hollow_cube_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033656_hollow_cube_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.3760967920534313,
+      "response_id": "gen-1772048666-15P9J3VgOIeGDmcr4sXO",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 104,
+        "total_tokens": 1318,
+        "cost": 0.004075,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004075,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 12,
+      "sample_id": "20251218_033656_keyed_reduced_shaft_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033656_keyed_reduced_shaft_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033656_keyed_reduced_shaft_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.7034178748726845,
+      "response_id": "gen-1772048670-313ReBJPbMc3Q1gWPzcK",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 122,
+        "total_tokens": 1336,
+        "cost": 0.004255,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004255,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00122
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 13,
+      "sample_id": "20251218_033657__panel_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033657__panel_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033657__panel_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.1414662497118115,
+      "response_id": "gen-1772048708-Dskp9WVFRkUfEaLzYRBb",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 121,
+        "total_tokens": 1335,
+        "cost": 0.004245,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004245,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00121
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 14,
+      "sample_id": "20251218_033657__quick_coupler_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033657__quick_coupler_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033657__quick_coupler_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.467798124998808,
+      "response_id": "gen-1772048713-sS4p0GWCHDDikiIbk7tl",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 173,
+        "total_tokens": 1387,
+        "cost": 0.004765,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004765,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00173
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 15,
+      "sample_id": "20251218_033657_beveled_thick_wall_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033657_beveled_thick_wall_tube_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033657_beveled_thick_wall_tube_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.6786156659945846,
+      "response_id": "gen-1772048718-jdJ3uuiqT6ZFl298BaIs",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 118,
+        "total_tokens": 1332,
+        "cost": 0.004215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 16,
+      "sample_id": "20251218_033657_plastic_lever_mount_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033657_plastic_lever_mount_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033657_plastic_lever_mount_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.716567708179355,
+      "response_id": "gen-1772048722-sgVk8j73voFFxSwbAL29",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 157,
+        "total_tokens": 1371,
+        "cost": 0.004605,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004605,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00157
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 17,
+      "sample_id": "20251218_033658__mounting_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033658__mounting_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033658__mounting_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.391156000085175,
+      "response_id": "gen-1772048727-qjVrTIgULAHqEw0fGMsV",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 150,
+        "total_tokens": 1364,
+        "cost": 0.004535,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004535,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0015
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 18,
+      "sample_id": "20251218_033658__truncated_sphere_with_notch_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033658__truncated_sphere_with_notch_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033658__truncated_sphere_with_notch_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.713683874811977,
+      "response_id": "gen-1772048732-yVYpVqXjrr5rZktpht2p",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 139,
+        "total_tokens": 1353,
+        "cost": 0.004425,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004425,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00139
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 19,
+      "sample_id": "20251218_033658_bracket_fitting_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033658_bracket_fitting_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033658_bracket_fitting_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.14400229183957,
+      "response_id": "gen-1772048737-yvRjp0RPcP4q2rqqeG9u",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 79,
+        "total_tokens": 1293,
+        "cost": 0.003825,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003825,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00079
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 20,
+      "sample_id": "20251218_033659__t_handle_lever_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659__t_handle_lever_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659__t_handle_lever_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.763507999945432,
+      "response_id": "gen-1772048740-jTcIUzQhxob5qK0GLNva",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 209,
+        "total_tokens": 1423,
+        "cost": 0.005125,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005125,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00209
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 21,
+      "sample_id": "20251218_033659_rounded_edge_prism_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659_rounded_edge_prism_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659_rounded_edge_prism_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.257170625030994,
+      "response_id": "gen-1772048746-l2Qi2s8lyz80NQi1zLj0",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 120,
+        "total_tokens": 1334,
+        "cost": 0.004235,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004235,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 22,
+      "sample_id": "20251218_033659_rubber_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659_rubber_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659_rubber_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.152814541943371,
+      "response_id": "gen-1772048750-kAZ22fpvsh0lT5fT6DSO",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 145,
+        "total_tokens": 1359,
+        "cost": 0.004485,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004485,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00145
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 23,
+      "sample_id": "20251218_033659_slotted_bushing_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659_slotted_bushing_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659_slotted_bushing_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.70841179182753,
+      "response_id": "gen-1772048754-yZYMOabcEXsfDrZEVsnv",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 155,
+        "total_tokens": 1369,
+        "cost": 0.004585,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004585,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00155
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 24,
+      "sample_id": "20251218_033659_square_spaced_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659_square_spaced_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659_square_spaced_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.972819417249411,
+      "response_id": "gen-1772048759-utI3Ujtg0hDLuJ7dqQzi",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 195,
+        "total_tokens": 1409,
+        "cost": 0.004985,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004985,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00195
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 25,
+      "sample_id": "20251218_033659_standoff_spacer_type_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033659_standoff_spacer_type_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033659_standoff_spacer_type_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.113909957930446,
+      "response_id": "gen-1772048764-16POs3mfcQ78in2BH7i8",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 100,
+        "total_tokens": 1314,
+        "cost": 0.004035,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004035,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.001
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 26,
+      "sample_id": "20251218_033700__box_with_gro_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033700__box_with_gro_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033700__box_with_gro_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.268441291991621,
+      "response_id": "gen-1772048768-aTvl7lsTOGUYLB4IyfAA",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 120,
+        "total_tokens": 1334,
+        "cost": 0.004235,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004235,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 27,
+      "sample_id": "20251218_033700__wall_bracket_with_gusset_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033700__wall_bracket_with_gusset_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033700__wall_bracket_with_gusset_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.5787749998271465,
+      "response_id": "gen-1772048772-F6mryHBVQVD0iB9ELNkn",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 249,
+        "total_tokens": 1463,
+        "cost": 0.005525,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005525,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00249
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 28,
+      "sample_id": "20251218_033700_brass_threaded_orifice_flange_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033700_brass_threaded_orifice_flange_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033700_brass_threaded_orifice_flange_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.618615374900401,
+      "response_id": "gen-1772048778-AMZC4ZPmPM7RJjWuuorO",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 116,
+        "total_tokens": 1330,
+        "cost": 0.004195,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004195,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00116
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 29,
+      "sample_id": "20251218_033700_vented_split_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033700_vented_split_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033700_vented_split_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.287737624719739,
+      "response_id": "gen-1772048782-YN24nbKDtpivB7g4rzhp",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 63,
+        "total_tokens": 1277,
+        "cost": 0.003665,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003665,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00063
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 30,
+      "sample_id": "20251218_033701_base_plate_with_slots_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033701_base_plate_with_slots_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033701_base_plate_with_slots_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.465142332948744,
+      "response_id": "gen-1772048785-gY0jowskTca5JByDuYiC",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 158,
+        "total_tokens": 1372,
+        "cost": 0.004615,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004615,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00158
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 31,
+      "sample_id": "20251218_033701_hollow_torus_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033701_hollow_torus_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033701_hollow_torus_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.343736708164215,
+      "response_id": "gen-1772048790-hY36KMlR8NYqnDND0GYE",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 115,
+        "total_tokens": 1329,
+        "cost": 0.004185,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004185,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00115
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 32,
+      "sample_id": "20251218_033701_step_pulley_with_keyway_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033701_step_pulley_with_keyway_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033701_step_pulley_with_keyway_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.327438875101507,
+      "response_id": "gen-1772048795-Y1GHNSZV1Xs6U7rbNc6C",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 218,
+        "total_tokens": 1432,
+        "cost": 0.005215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00218
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 33,
+      "sample_id": "20251218_033701_thick_spacer_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033701_thick_spacer_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033701_thick_spacer_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.235193375032395,
+      "response_id": "gen-1772048801-nWf61hJwoll8we32nA9u",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 227,
+        "total_tokens": 1441,
+        "cost": 0.005305,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005305,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00227
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 34,
+      "sample_id": "20251218_033702_h_beam_bridge_support_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033702_h_beam_bridge_support_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033702_h_beam_bridge_support_v1.py",
+      "status": "ok",
+      "latency_seconds": 6.093641166109592,
+      "response_id": "gen-1772048806-93sSvTgHun1S32odg8bU",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 273,
+        "total_tokens": 1487,
+        "cost": 0.005765,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005765,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00273
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 35,
+      "sample_id": "20251218_033702_hollow_core_beam_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033702_hollow_core_beam_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033702_hollow_core_beam_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.913995957933366,
+      "response_id": "gen-1772048812-OAQ5bC0fLAy4M3qUKQWH",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 166,
+        "total_tokens": 1380,
+        "cost": 0.004695,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004695,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00166
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 36,
+      "sample_id": "20251218_033702_hose_clamp_stainless_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033702_hose_clamp_stainless_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033702_hose_clamp_stainless_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.2333287498913705,
+      "response_id": "gen-1772048817-5yUnYGDBOVQPoFCwkDtK",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 134,
+        "total_tokens": 1348,
+        "cost": 0.004375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004375,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 37,
+      "sample_id": "20251218_033702_perforated_mounting_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033702_perforated_mounting_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033702_perforated_mounting_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.4565875004045665,
+      "response_id": "gen-1772048821-wH7HMy7x624IRDaEGF8U",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 140,
+        "total_tokens": 1354,
+        "cost": 0.004435,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004435,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0014
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 38,
+      "sample_id": "20251218_033703_split_panel_mounted_housing_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033703_split_panel_mounted_housing_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033703_split_panel_mounted_housing_v1.py",
+      "status": "ok",
+      "latency_seconds": 6.081520083360374,
+      "response_id": "gen-1772048827-ICoOI1EgrCyPvchT7QQ3",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 84,
+        "total_tokens": 1298,
+        "cost": 0.003875,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003875,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00084
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 39,
+      "sample_id": "20251218_033704__clevis_bolt_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033704__clevis_bolt_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033704__clevis_bolt_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.570703292265534,
+      "response_id": "gen-1772048832-2ispt1FytLrVdM71PEwg",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 119,
+        "total_tokens": 1333,
+        "cost": 0.004225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004225,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00119
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 40,
+      "sample_id": "20251218_033704_machine_screw_unc_thread_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033704_machine_screw_unc_thread_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033704_machine_screw_unc_thread_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.803553291130811,
+      "response_id": "gen-1772048837-1pmXsgjDYwcaxv0h8JtZ",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 134,
+        "total_tokens": 1348,
+        "cost": 0.004375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004375,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 41,
+      "sample_id": "20251218_033704_quick_disconnect_adapter_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033704_quick_disconnect_adapter_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033704_quick_disconnect_adapter_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.7459519589319825,
+      "response_id": "gen-1772048842-BHOFo0y00rrlTzsHIglw",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 191,
+        "total_tokens": 1405,
+        "cost": 0.004945,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004945,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00191
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 42,
+      "sample_id": "20251218_033704_ring_retainer_clip_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033704_ring_retainer_clip_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033704_ring_retainer_clip_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.6495850421488285,
+      "response_id": "gen-1772048848-22RsfRpG3g9PCC5IKQLK",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 144,
+        "total_tokens": 1358,
+        "cost": 0.004475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004475,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 43,
+      "sample_id": "20251218_033704_square_ended_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033704_square_ended_tube_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033704_square_ended_tube_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.8390289577655494,
+      "response_id": "gen-1772048852-SQziuyJnJ1knayeQpK00",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 127,
+        "total_tokens": 1341,
+        "cost": 0.004305,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004305,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00127
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 44,
+      "sample_id": "20251218_033705_base_reinforcement_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033705_base_reinforcement_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033705_base_reinforcement_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.5556492088362575,
+      "response_id": "gen-1772048856-fk0e825L8VBYVIM3zFqe",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 131,
+        "total_tokens": 1345,
+        "cost": 0.004345,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004345,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00131
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 45,
+      "sample_id": "20251218_033705_box_with_beveled_corners_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033705_box_with_beveled_corners_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033705_box_with_beveled_corners_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.603991124778986,
+      "response_id": "gen-1772048861-8BsLEdmQrEvUayHwSe8E",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 136,
+        "total_tokens": 1350,
+        "cost": 0.004395,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004395,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 46,
+      "sample_id": "20251218_033705_dowel_pin_with_hex_head_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033705_dowel_pin_with_hex_head_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033705_dowel_pin_with_hex_head_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.306683083064854,
+      "response_id": "gen-1772048866-Cydkjsld7w3PRJEL63Cs",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 101,
+        "total_tokens": 1315,
+        "cost": 0.004045,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004045,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00101
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 47,
+      "sample_id": "20251218_033705_split_panel_cover_housing_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033705_split_panel_cover_housing_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033705_split_panel_cover_housing_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.758283750154078,
+      "response_id": "gen-1772048870-wplWbPhLFaVrXRg2NLpl",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 179,
+        "total_tokens": 1393,
+        "cost": 0.004825,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004825,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00179
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 48,
+      "sample_id": "20251218_033706_hat_channel_rail_support_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033706_hat_channel_rail_support_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033706_hat_channel_rail_support_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.256536167114973,
+      "response_id": "gen-1772048876-tqz5b4ZFMnARIyxpuoQd",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 134,
+        "total_tokens": 1348,
+        "cost": 0.004375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004375,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 49,
+      "sample_id": "20251218_033706_square_profile_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033706_square_profile_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033706_square_profile_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.154459999874234,
+      "response_id": "gen-1772048880-lIekYu5ZS9oDFfZuOyYb",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 118,
+        "total_tokens": 1332,
+        "cost": 0.004215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 50,
+      "sample_id": "20251218_033707_channel_cross_beam_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033707_channel_cross_beam_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033707_channel_cross_beam_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.27139970799908,
+      "response_id": "gen-1772048885-Qu54uCSLimc5QZgm7aOr",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 87,
+        "total_tokens": 1301,
+        "cost": 0.003905,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003905,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00087
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 51,
+      "sample_id": "20251218_033707_cover_adapter_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033707_cover_adapter_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033707_cover_adapter_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.201924666762352,
+      "response_id": "gen-1772048889-JhoawXYXvztL8URCPjSn",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 116,
+        "total_tokens": 1330,
+        "cost": 0.004195,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004195,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00116
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 52,
+      "sample_id": "20251218_033708_square_reducing_stainless_flpare_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033708_square_reducing_stainless_flpare_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033708_square_reducing_stainless_flpare_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.461296541616321,
+      "response_id": "gen-1772048894-DT5Xzlazkxw7yQ16K6nD",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 150,
+        "total_tokens": 1364,
+        "cost": 0.004535,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004535,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0015
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 53,
+      "sample_id": "20251218_033709__cube_with_ridge_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709__cube_with_ridge_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709__cube_with_ridge_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.196912375278771,
+      "response_id": "gen-1772048899-tXeWgcaoEEySrUqeNqE4",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 125,
+        "total_tokens": 1339,
+        "cost": 0.004285,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004285,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00125
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 54,
+      "sample_id": "20251218_033709_angle_iron_frame_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_angle_iron_frame_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_angle_iron_frame_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.426424292381853,
+      "response_id": "gen-1772048903-M1bMKkosW5wjSX5xj7Xe",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 119,
+        "total_tokens": 1333,
+        "cost": 0.004225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004225,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00119
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 55,
+      "sample_id": "20251218_033709_composite_shapes_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_composite_shapes_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_composite_shapes_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.9549035001546144,
+      "response_id": "gen-1772048911-BWOvAxHtreLwZ7Db3Ol8",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 131,
+        "total_tokens": 1345,
+        "cost": 0.004345,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004345,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00131
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 56,
+      "sample_id": "20251218_033709_frame_mount_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_frame_mount_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_frame_mount_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.7529518329538405,
+      "response_id": "gen-1772048917-3X6cFwOEKuCfvRQdHsVv",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 144,
+        "total_tokens": 1358,
+        "cost": 0.004475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004475,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 57,
+      "sample_id": "20251218_033709_keyed_coupling_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_keyed_coupling_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_keyed_coupling_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.68377016717568,
+      "response_id": "gen-1772048923-Varc1Vt18nmU3uti2C9r",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 155,
+        "total_tokens": 1369,
+        "cost": 0.004585,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004585,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00155
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 58,
+      "sample_id": "20251218_033709_tabs_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_tabs_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_tabs_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.450545042287558,
+      "response_id": "gen-1772048928-L5HZajO5SHwNukSqHIQ1",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 191,
+        "total_tokens": 1405,
+        "cost": 0.004945,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004945,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00191
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 59,
+      "sample_id": "20251218_033709_wall_mount_bracket_with_tabs_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033709_wall_mount_bracket_with_tabs_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033709_wall_mount_bracket_with_tabs_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.0929164160043,
+      "response_id": "gen-1772048933-RPbVzzmGkuruWkJIMPfN",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 170,
+        "total_tokens": 1384,
+        "cost": 0.004735,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004735,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0017
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 60,
+      "sample_id": "20251218_033710_perforated_mount_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033710_perforated_mount_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033710_perforated_mount_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.369035208132118,
+      "response_id": "gen-1772048938-e5420vgvj2KAMH3bfmmC",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 161,
+        "total_tokens": 1375,
+        "cost": 0.004645,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004645,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00161
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 61,
+      "sample_id": "20251218_033711__cable_shelf_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033711__cable_shelf_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033711__cable_shelf_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.897912290878594,
+      "response_id": "gen-1772048944-fJbEF45vDY0bpuobX67R",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 178,
+        "total_tokens": 1392,
+        "cost": 0.004815,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004815,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00178
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 62,
+      "sample_id": "20251218_033711__cable_t_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033711__cable_t_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033711__cable_t_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.581862250342965,
+      "response_id": "gen-1772049071-kPLJquOhkzcAXQnBKrjN",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 137,
+        "total_tokens": 1351,
+        "cost": 0.004405,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004405,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00137
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 63,
+      "sample_id": "20251218_033711__input_shaft_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033711__input_shaft_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033711__input_shaft_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.213535374961793,
+      "response_id": "gen-1772049075-1my3lnq6sBKXFOAwx5SP",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 148,
+        "total_tokens": 1362,
+        "cost": 0.004515,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004515,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00148
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 64,
+      "sample_id": "20251218_033711_clip_retainer_spring_clip_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033711_clip_retainer_spring_clip_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033711_clip_retainer_spring_clip_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.9807573752477765,
+      "response_id": "gen-1772049079-bVlD0HpN69ta4MJCjoww",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 161,
+        "total_tokens": 1375,
+        "cost": 0.004645,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004645,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00161
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 65,
+      "sample_id": "20251218_033713_ceiling_mount_z_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033713_ceiling_mount_z_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033713_ceiling_mount_z_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 7.098072167020291,
+      "response_id": "gen-1772049086-KwTm4IXu2rC9P06uHMUw",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 290,
+        "total_tokens": 1504,
+        "cost": 0.005935,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005935,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0029
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 66,
+      "sample_id": "20251218_033713_edge_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033713_edge_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033713_edge_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.232686958275735,
+      "response_id": "gen-1772049093-8qljA1B5czpD30VXaX4D",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 112,
+        "total_tokens": 1326,
+        "cost": 0.004155,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004155,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 67,
+      "sample_id": "20251218_033713_thick_wall_right_angle_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033713_thick_wall_right_angle_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033713_thick_wall_right_angle_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 6.502443792298436,
+      "response_id": "gen-1772049220-BzyARkN7VG9IYhSD0K08",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 158,
+        "total_tokens": 1372,
+        "cost": 0.004615,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004615,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00158
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 68,
+      "sample_id": "20251218_033713_z_bracket_for_shelves_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033713_z_bracket_for_shelves_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033713_z_bracket_for_shelves_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.588013875298202,
+      "response_id": "gen-1772049348-2XugR2JV6YrAewyrzuKW",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 100,
+        "total_tokens": 1314,
+        "cost": 0.004035,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004035,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.001
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 69,
+      "sample_id": "20251218_033714__mounting_thick_rectangular_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033714__mounting_thick_rectangular_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033714__mounting_thick_rectangular_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.443327625282109,
+      "response_id": "gen-1772049351-GZmACC2Iv0g5iNhXKUsU",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 219,
+        "total_tokens": 1433,
+        "cost": 0.005225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005225,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00219
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 70,
+      "sample_id": "20251218_033714_channel_girder_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033714_channel_girder_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033714_channel_girder_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.568708209320903,
+      "response_id": "gen-1772049357-HgmAKjOxmxDgXUWFjrPE",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 111,
+        "total_tokens": 1325,
+        "cost": 0.004145,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004145,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00111
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 71,
+      "sample_id": "20251218_033715__threaded_plug_fitting_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033715__threaded_plug_fitting_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033715__threaded_plug_fitting_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.507215708959848,
+      "response_id": "gen-1772049360-A34RXiwiQxsGFeiGHqDj",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 134,
+        "total_tokens": 1348,
+        "cost": 0.004375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004375,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00134
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 72,
+      "sample_id": "20251218_033715_hollow_angle_support_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033715_hollow_angle_support_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033715_hollow_angle_support_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.150498542003334,
+      "response_id": "gen-1772049365-siLVrF7xntkxEkMSnhKk",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 132,
+        "total_tokens": 1346,
+        "cost": 0.004355,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004355,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00132
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 73,
+      "sample_id": "20251218_033715_tapered_post_base_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033715_tapered_post_base_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033715_tapered_post_base_v1.py",
+      "status": "ok",
+      "latency_seconds": 7.423220292199403,
+      "response_id": "gen-1772049369-p8XOjx79vIo3QdqLm5dc",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 230,
+        "total_tokens": 1444,
+        "cost": 0.005335,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005335,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0023
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 74,
+      "sample_id": "20251218_033717_pyramid_with_notches_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033717_pyramid_with_notches_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033717_pyramid_with_notches_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.235105582978576,
+      "response_id": "gen-1772049376-4OfJbJBaRPNq92kLBWyo",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 196,
+        "total_tokens": 1410,
+        "cost": 0.004995,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004995,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00196
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 75,
+      "sample_id": "20251218_033717_reinforced_profile_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033717_reinforced_profile_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033717_reinforced_profile_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.7262213747017086,
+      "response_id": "gen-1772049382-ylmvDMGWWRrsDfRnt83f",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 112,
+        "total_tokens": 1326,
+        "cost": 0.004155,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004155,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 76,
+      "sample_id": "20251218_033718_cap_nut_with_spring_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033718_cap_nut_with_spring_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033718_cap_nut_with_spring_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.74860354186967,
+      "response_id": "gen-1772049385-eMwRkxbzMywqYdg34WAM",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 132,
+        "total_tokens": 1346,
+        "cost": 0.004355,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004355,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00132
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 77,
+      "sample_id": "20251218_033718_precision_wedge_cam_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033718_precision_wedge_cam_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033718_precision_wedge_cam_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.288501999806613,
+      "response_id": "gen-1772049391-PTrdxAfMetfmivrhWRym",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 171,
+        "total_tokens": 1385,
+        "cost": 0.004745,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004745,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00171
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 78,
+      "sample_id": "20251218_033718_pvc_crank_handle_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033718_pvc_crank_handle_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033718_pvc_crank_handle_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.9108054167591035,
+      "response_id": "gen-1772049395-AOpUvJGAKw5EQS8nEwFK",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 93,
+        "total_tokens": 1307,
+        "cost": 0.003965,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003965,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00093
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 79,
+      "sample_id": "20251218_033719_thick_wall_cable_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033719_thick_wall_cable_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033719_thick_wall_cable_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.454070250038058,
+      "response_id": "gen-1772049399-qiv72hIZ3Z2so4LbBclC",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 202,
+        "total_tokens": 1416,
+        "cost": 0.005055,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005055,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00202
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 80,
+      "sample_id": "20251218_033719_tilted_square_pyramid_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033719_tilted_square_pyramid_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033719_tilted_square_pyramid_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.618848499841988,
+      "response_id": "gen-1772049405-cJOq7BmUKkealirrjMCO",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 190,
+        "total_tokens": 1404,
+        "cost": 0.004935,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004935,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0019
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 81,
+      "sample_id": "20251218_033719_wedge_cam_linkage_pivot_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033719_wedge_cam_linkage_pivot_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033719_wedge_cam_linkage_pivot_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.068624333012849,
+      "response_id": "gen-1772049409-ZqcjXiYoq6sSJ4JjnZDw",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 136,
+        "total_tokens": 1350,
+        "cost": 0.004395,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004395,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 82,
+      "sample_id": "20251218_033720__splined_end_shaft_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033720__splined_end_shaft_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033720__splined_end_shaft_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.6987048340961337,
+      "response_id": "gen-1772049413-Uk4i3z1xhE2cqL7vH3ni",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 85,
+        "total_tokens": 1299,
+        "cost": 0.003885,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003885,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00085
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 83,
+      "sample_id": "20251218_033721__pipe_z_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033721__pipe_z_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033721__pipe_z_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 2.9770920420996845,
+      "response_id": "gen-1772049417-dNpHZ4g31qKthXoEkabb",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 91,
+        "total_tokens": 1305,
+        "cost": 0.003945,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003945,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00091
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 84,
+      "sample_id": "20251218_033721_gusseted_circular_mounting_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033721_gusseted_circular_mounting_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033721_gusseted_circular_mounting_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.367900166660547,
+      "response_id": "gen-1772049420-bF2AuqSLFhsGvIcjYZR2",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 196,
+        "total_tokens": 1410,
+        "cost": 0.004995,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004995,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00196
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 85,
+      "sample_id": "20251218_033721_perforated_support_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033721_perforated_support_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033721_perforated_support_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.3324867081828415,
+      "response_id": "gen-1772049425-9pFtftlR9buaVqM0BIfa",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 151,
+        "total_tokens": 1365,
+        "cost": 0.004545,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004545,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00151
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 86,
+      "sample_id": "20251218_033721_taper_pin_stainless_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033721_taper_pin_stainless_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033721_taper_pin_stainless_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.6220724168233573,
+      "response_id": "gen-1772049431-feZfR491cBzotQYRgqqi",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 107,
+        "total_tokens": 1321,
+        "cost": 0.004105,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004105,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00107
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 87,
+      "sample_id": "20251218_033721_tinned_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033721_tinned_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033721_tinned_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.1649288749322295,
+      "response_id": "gen-1772049434-sCSfdqs4fcBnqgBY9kYs",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 88,
+        "total_tokens": 1302,
+        "cost": 0.003915,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003915,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00088
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 88,
+      "sample_id": "20251218_033722__adjustable_step_pulley_for_precision_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033722__adjustable_step_pulley_for_precision_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033722__adjustable_step_pulley_for_precision_v1.py",
+      "status": "ok",
+      "latency_seconds": 6.597599375061691,
+      "response_id": "gen-1772049438-kIniWs2vE59BjJLHZNkt",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 192,
+        "total_tokens": 1406,
+        "cost": 0.004955,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004955,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00192
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 89,
+      "sample_id": "20251218_033722_corrugated_rectangular_thick_wall_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033722_corrugated_rectangular_thick_wall_tube_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033722_corrugated_rectangular_thick_wall_tube_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.562339708209038,
+      "response_id": "gen-1772049444-wksgoXu8ObiiiPFk0kI5",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 136,
+        "total_tokens": 1350,
+        "cost": 0.004395,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004395,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00136
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 90,
+      "sample_id": "20251218_033722_t_profile_stand_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033722_t_profile_stand_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033722_t_profile_stand_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.648765207733959,
+      "response_id": "gen-1772049449-DWvaDtAA60o4QNN4bPiw",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 156,
+        "total_tokens": 1370,
+        "cost": 0.004595,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004595,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00156
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 91,
+      "sample_id": "20251218_033722_titanium_screw_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033722_titanium_screw_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033722_titanium_screw_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.024215708952397,
+      "response_id": "gen-1772049453-8YfiUsdDi2uQzuPAaxoO",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 120,
+        "total_tokens": 1334,
+        "cost": 0.004235,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004235,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0012
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 92,
+      "sample_id": "20251218_033723_corner_bracket_with_angle_adjustment_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033723_corner_bracket_with_angle_adjustment_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033723_corner_bracket_with_angle_adjustment_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.091146958060563,
+      "response_id": "gen-1772049458-M4PRCHw58IKcD49IXDJ3",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 170,
+        "total_tokens": 1384,
+        "cost": 0.004735,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004735,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.0017
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 93,
+      "sample_id": "20251218_033723_male_thread_adapter_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033723_male_thread_adapter_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033723_male_thread_adapter_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.5336445001885295,
+      "response_id": "gen-1772049463-JThW6bWjou9Ld0C0elRu",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 141,
+        "total_tokens": 1355,
+        "cost": 0.004445,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004445,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00141
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 94,
+      "sample_id": "20251218_033723_reinforcement_spacer_square_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033723_reinforcement_spacer_square_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033723_reinforcement_spacer_square_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.815742457751185,
+      "response_id": "gen-1772049467-Fbfsp0pxwpqyxXXkNx1u",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 144,
+        "total_tokens": 1358,
+        "cost": 0.004475,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004475,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00144
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 95,
+      "sample_id": "20251218_033723_square_post_hollow_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033723_square_post_hollow_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033723_square_post_hollow_v1.py",
+      "status": "ok",
+      "latency_seconds": 3.9474549586884677,
+      "response_id": "gen-1772049472-l38oc4Qs7FP4WLIoDscc",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 104,
+        "total_tokens": 1318,
+        "cost": 0.004075,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004075,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00104
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 96,
+      "sample_id": "20251218_033723_vertical_truncated_cylinder_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033723_vertical_truncated_cylinder_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033723_vertical_truncated_cylinder_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.48370400024578,
+      "response_id": "gen-1772049476-p7sgS6Jk8cpONDAcDRto",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 118,
+        "total_tokens": 1332,
+        "cost": 0.004215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 97,
+      "sample_id": "20251218_033724__double_c_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033724__double_c_bracket_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033724__double_c_bracket_v1.py",
+      "status": "ok",
+      "latency_seconds": 5.6969554158858955,
+      "response_id": "gen-1772049480-RVHU0WwNOhmfCcWMjhG4",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 207,
+        "total_tokens": 1421,
+        "cost": 0.005105,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.005105,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00207
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 98,
+      "sample_id": "20251218_033724_hollow_square_column_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033724_hollow_square_column_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033724_hollow_square_column_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.710724790580571,
+      "response_id": "gen-1772049486-v5vEzalm21hQCf577Zgx",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 167,
+        "total_tokens": 1381,
+        "cost": 0.004705,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004705,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00167
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 99,
+      "sample_id": "20251218_033725_cryo_thermal_shock_restraint_mount_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033725_cryo_thermal_shock_restraint_mount_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033725_cryo_thermal_shock_restraint_mount_v1.py",
+      "status": "ok",
+      "latency_seconds": 6.008212000131607,
+      "response_id": "gen-1772049491-VVhoD98pYKcKhSYqii2y",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 154,
+        "total_tokens": 1368,
+        "cost": 0.004575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004575,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00154
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 100,
+      "sample_id": "20251218_033725_ribs_plate_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033725_ribs_plate_v1.png",
+      "output_path": "generated/gpt-4o/20251218_033725_ribs_plate_v1.py",
+      "status": "ok",
+      "latency_seconds": 4.50269616721198,
+      "response_id": "gen-1772049497-CZHLAw2n22PlutVVkWJI",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 154,
+        "total_tokens": 1368,
+        "cost": 0.004575,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004575,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00154
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ],
+  "benchmark": {
+    "n_ok": 100,
+    "n_error": 0,
+    "latency_seconds": {
+      "min": 2.9770920420996845,
+      "max": 7.423220292199403,
+      "mean": 4.688305686288513,
+      "median": 4.558994458522648
+    },
+    "usage_totals": {
+      "prompt_tokens": 121400.0,
+      "completion_tokens": 14301.0,
+      "total_tokens": 135701.0,
+      "cost": 0.4465100000000001,
+      "is_byok": 0.0
+    },
+    "usage_averages_per_ok": {
+      "prompt_tokens": 1214.0,
+      "completion_tokens": 143.01,
+      "total_tokens": 1357.01,
+      "cost": 0.0044651000000000005,
+      "is_byok": 0.0
+    }
+  },
+  "finished_at": "2026-02-25T19:58:21.583464+00:00"
+}

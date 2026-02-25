@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-vl-8b-thinking",
+  "model_dir": "generated/qwen3-vl-8b-thinking",
+  "mode": "benchmark",
+  "started_at": "2026-02-25T23:03:14.093856+00:00",
+  "total": 1,
+  "succeeded": 0,
+  "skipped": 0,
+  "failed": 1,
+  "results": [
+    {
+      "index": 1,
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033650_brass_spacer_tube_v1.png",
+      "output_path": null,
+      "status": "error",
+      "error": "OpenRouter HTTP 404: {\"error\":{\"message\":\"No endpoints found matching your data policy (Zero data retention). Configure: https://openrouter.ai/settings/privacy\",\"code\":404}}"
+    }
+  ],
+  "benchmark": {
+    "n_ok": 0,
+    "n_error": 1,
+    "latency_seconds": null,
+    "usage_totals": {},
+    "usage_averages_per_ok": {}
+  },
+  "finished_at": "2026-02-25T23:03:14.505982+00:00"
+}

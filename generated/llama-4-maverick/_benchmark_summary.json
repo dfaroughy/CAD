@@ -1,0 +1,67 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "model_dir": "generated/llama-4-maverick",
+  "mode": "benchmark",
+  "started_at": "2026-02-25T23:05:22.528552+00:00",
+  "total": 1,
+  "succeeded": 1,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "index": 1,
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033650_brass_spacer_tube_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 3.6540647922083735,
+      "response_id": "gen-1772060722-5EdSjFzUuNCexrchuoSX",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 2437,
+        "completion_tokens": 215,
+        "total_tokens": 2652,
+        "cost": 0.00106795,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00106795,
+          "upstream_inference_prompt_cost": 0.00085295,
+          "upstream_inference_completions_cost": 0.000215
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ],
+  "benchmark": {
+    "n_ok": 1,
+    "n_error": 0,
+    "latency_seconds": {
+      "min": 3.6540647922083735,
+      "max": 3.6540647922083735,
+      "mean": 3.6540647922083735,
+      "median": 3.6540647922083735
+    },
+    "usage_totals": {
+      "prompt_tokens": 2437.0,
+      "completion_tokens": 215.0,
+      "total_tokens": 2652.0,
+      "cost": 0.00106795,
+      "is_byok": 0.0
+    },
+    "usage_averages_per_ok": {
+      "prompt_tokens": 2437.0,
+      "completion_tokens": 215.0,
+      "total_tokens": 2652.0,
+      "cost": 0.00106795,
+      "is_byok": 0.0
+    }
+  },
+  "finished_at": "2026-02-25T23:05:26.185314+00:00"
+}

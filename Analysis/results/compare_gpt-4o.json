@@ -1,0 +1,2219 @@
+{
+  "model": "gpt-4o",
+  "generated_dir": "generated/gpt-4o",
+  "truth_dir": "data/models",
+  "created_at": "2026-02-25T22:36:05.543851+00:00",
+  "config": {
+    "tol": 0.05,
+    "n_bins_xi": 64,
+    "n_bins_pv": 20,
+    "limit": null
+  },
+  "summary": {
+    "total": 100,
+    "ok": 77,
+    "failed": 23,
+    "status_counts": {
+      "code_error": 23,
+      "ok": 77
+    },
+    "aggregates": {
+      "vol_rel": {
+        "mean": 0.7558710993741509,
+        "median": 0.29670803140230934,
+        "min": 0.0,
+        "max": 6.122591068900286
+      },
+      "hausdorff": {
+        "mean": 25.59832670390915,
+        "median": 20.074859899884732,
+        "min": 0.0,
+        "max": 105.27091184842148
+      },
+      "xi_l2": {
+        "mean": 476.7428753228289,
+        "median": 33.32589065749697,
+        "min": 0.05892556509887914,
+        "max": 26473.61113269478
+      },
+      "p_value": {
+        "mean": 0.01298701298701297,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.9999999999999987
+      }
+    }
+  },
+  "rows": [
+    {
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "generated_path": "generated/gpt-4o/20251218_033650_brass_spacer_tube_v1.py",
+      "truth_path": "data/models/20251218_033650_brass_spacer_tube_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 3,
+        "has_result": false,
+        "error_type": "Standard_Failure",
+        "error_msg": "There are no suitable edges for chamfer or fillet"
+      },
+      "index": 1
+    },
+    {
+      "sample_id": "20251218_033651_dowel_pin_brass_v1",
+      "generated_path": "generated/gpt-4o/20251218_033651_dowel_pin_brass_v1.py",
+      "truth_path": "data/models/20251218_033651_dowel_pin_brass_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.6934722081729848,
+        "hausdorff": 0.5,
+        "xi_l2": 4.169739925249795,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 500000.0,
+        "z_chamfer": 110211.29780353459
+      },
+      "index": 2
+    },
+    {
+      "sample_id": "20251218_033652_grip_handle_spacer_v1",
+      "generated_path": "generated/gpt-4o/20251218_033652_grip_handle_spacer_v1.py",
+      "truth_path": "data/models/20251218_033652_grip_handle_spacer_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.05329549795272269,
+        "hausdorff": 3.1622776601683795,
+        "xi_l2": 13.422428097508554,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 3162277.6601683795,
+        "z_chamfer": 3449173.283143251
+      },
+      "index": 3
+    },
+    {
+      "sample_id": "20251218_033652_hook_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033652_hook_bracket_v1.py",
+      "truth_path": "data/models/20251218_033652_hook_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 1.520476261127026,
+        "hausdorff": 33.25657829663178,
+        "xi_l2": 288.00811964948656,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 33256578.29663178,
+        "z_chamfer": 464379098.4064842
+      },
+      "index": 4
+    },
+    {
+      "sample_id": "20251218_033654__sliding_joint_v1",
+      "generated_path": "generated/gpt-4o/20251218_033654__sliding_joint_v1.py",
+      "truth_path": "data/models/20251218_033654__sliding_joint_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.14042157978074488,
+        "hausdorff": 2.5,
+        "xi_l2": 57.9715915404453,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 2500000.0,
+        "z_chamfer": 6149476.100837141
+      },
+      "index": 5
+    },
+    {
+      "sample_id": "20251218_033654_box_with_fillet_v1",
+      "generated_path": "generated/gpt-4o/20251218_033654_box_with_fillet_v1.py",
+      "truth_path": "data/models/20251218_033654_box_with_fillet_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 1,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.02706725804566862,
+        "hausdorff": 5.0,
+        "xi_l2": 20.707843065101784,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 5000000.0,
+        "z_chamfer": 10962756.333288735
+      },
+      "index": 6
+    },
+    {
+      "sample_id": "20251218_033654_cube_with_beveled_corners_v1",
+      "generated_path": "generated/gpt-4o/20251218_033654_cube_with_beveled_corners_v1.py",
+      "truth_path": "data/models/20251218_033654_cube_with_beveled_corners_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 1,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.0,
+        "hausdorff": 0.0,
+        "xi_l2": 0.05892556509887914,
+        "p_value": 0.9999999999999987,
+        "p_pc": 1.0,
+        "p_xi": 0.9999999481743792,
+        "z_hausdorff": 0.0,
+        "z_chamfer": 0.0
+      },
+      "index": 7
+    },
+    {
+      "sample_id": "20251218_033655_pyramid_with_rounded_base_v1",
+      "generated_path": "generated/gpt-4o/20251218_033655_pyramid_with_rounded_base_v1.py",
+      "truth_path": "data/models/20251218_033655_pyramid_with_rounded_base_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.8294130205804007,
+        "hausdorff": 14.147137196298551,
+        "xi_l2": 53.44743411456707,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 14147137.196298553,
+        "z_chamfer": 97629536.34680597
+      },
+      "index": 8
+    },
+    {
+      "sample_id": "20251218_033656__equipment_hanger_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033656__equipment_hanger_bracket_v1.py",
+      "truth_path": "data/models/20251218_033656__equipment_hanger_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9757711784116219,
+        "hausdorff": 50.23445033042563,
+        "xi_l2": 111.27289472209341,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 50234450.330425635,
+        "z_chamfer": 1955098882.4962547
+      },
+      "index": 9
+    },
+    {
+      "sample_id": "20251218_033656_hexagonal_washer_v1",
+      "generated_path": "generated/gpt-4o/20251218_033656_hexagonal_washer_v1.py",
+      "truth_path": "data/models/20251218_033656_hexagonal_washer_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.901412268781126,
+        "hausdorff": 3.7931281648697017,
+        "xi_l2": 15.083326108212423,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 3793128.164869702,
+        "z_chamfer": 10110420.6318173
+      },
+      "index": 10
+    },
+    {
+      "sample_id": "20251218_033656_hollow_cube_v1",
+      "generated_path": "generated/gpt-4o/20251218_033656_hollow_cube_v1.py",
+      "truth_path": "data/models/20251218_033656_hollow_cube_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.6222222222222221,
+        "hausdorff": 25.03086406573461,
+        "xi_l2": 114.41852442405082,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 25030864.065734614,
+        "z_chamfer": 880242543.1496925
+      },
+      "index": 11
+    },
+    {
+      "sample_id": "20251218_033656_keyed_reduced_shaft_v1",
+      "generated_path": "generated/gpt-4o/20251218_033656_keyed_reduced_shaft_v1.py",
+      "truth_path": "data/models/20251218_033656_keyed_reduced_shaft_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "ValueError",
+        "error_msg": "If multiple objects selected, they all must be planar faces."
+      },
+      "index": 12
+    },
+    {
+      "sample_id": "20251218_033657__panel_v1",
+      "generated_path": "generated/gpt-4o/20251218_033657__panel_v1.py",
+      "truth_path": "data/models/20251218_033657__panel_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.020852457840627642,
+        "hausdorff": 30.62277953133809,
+        "xi_l2": 64.3872339064152,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 30622779.531338092,
+        "z_chamfer": 709413337.2209862
+      },
+      "index": 13
+    },
+    {
+      "sample_id": "20251218_033657__quick_coupler_v1",
+      "generated_path": "generated/gpt-4o/20251218_033657__quick_coupler_v1.py",
+      "truth_path": "data/models/20251218_033657__quick_coupler_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 1.365155830034228,
+        "hausdorff": 31.73226978225369,
+        "xi_l2": 387.03849713768403,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 31732269.782253694,
+        "z_chamfer": 847100797.4838984
+      },
+      "index": 14
+    },
+    {
+      "sample_id": "20251218_033657_beveled_thick_wall_tube_v1",
+      "generated_path": "generated/gpt-4o/20251218_033657_beveled_thick_wall_tube_v1.py",
+      "truth_path": "data/models/20251218_033657_beveled_thick_wall_tube_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 3,
+        "has_result": false,
+        "error_type": "Standard_Failure",
+        "error_msg": "There are no suitable edges for chamfer or fillet"
+      },
+      "index": 15
+    },
+    {
+      "sample_id": "20251218_033657_plastic_lever_mount_v1",
+      "generated_path": "generated/gpt-4o/20251218_033657_plastic_lever_mount_v1.py",
+      "truth_path": "data/models/20251218_033657_plastic_lever_mount_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.1147371329833206,
+        "hausdorff": 10.700467279516348,
+        "xi_l2": 52.57127650506597,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 10700467.279516349,
+        "z_chamfer": 7563051.439994865
+      },
+      "index": 16
+    },
+    {
+      "sample_id": "20251218_033658__mounting_v1",
+      "generated_path": "generated/gpt-4o/20251218_033658__mounting_v1.py",
+      "truth_path": "data/models/20251218_033658__mounting_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "unexpected EOF while parsing (<string>, line 1)"
+      },
+      "index": 17
+    },
+    {
+      "sample_id": "20251218_033658__truncated_sphere_with_notch_v1",
+      "generated_path": "generated/gpt-4o/20251218_033658__truncated_sphere_with_notch_v1.py",
+      "truth_path": "data/models/20251218_033658__truncated_sphere_with_notch_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9218589228957177,
+        "hausdorff": 61.2374060718483,
+        "xi_l2": 92.98853928162306,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 61237406.0718483,
+        "z_chamfer": 2853964598.7439647
+      },
+      "index": 18
+    },
+    {
+      "sample_id": "20251218_033658_bracket_fitting_v1",
+      "generated_path": "generated/gpt-4o/20251218_033658_bracket_fitting_v1.py",
+      "truth_path": "data/models/20251218_033658_bracket_fitting_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.0024536257392778382,
+        "hausdorff": 5.068164510058374,
+        "xi_l2": 37.677621713022475,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 5068164.510058374,
+        "z_chamfer": 6845187.37447813
+      },
+      "index": 19
+    },
+    {
+      "sample_id": "20251218_033659__t_handle_lever_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659__t_handle_lever_v1.py",
+      "truth_path": "data/models/20251218_033659__t_handle_lever_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "ValueError",
+        "error_msg": "If multiple objects selected, they all must be planar faces."
+      },
+      "index": 20
+    },
+    {
+      "sample_id": "20251218_033659_rounded_edge_prism_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659_rounded_edge_prism_v1.py",
+      "truth_path": "data/models/20251218_033659_rounded_edge_prism_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.15923850289268418,
+        "hausdorff": 8.200609733428363,
+        "xi_l2": 60.528239831993666,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 8200609.733428364,
+        "z_chamfer": 76813367.19179566
+      },
+      "index": 21
+    },
+    {
+      "sample_id": "20251218_033659_rubber_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659_rubber_plate_v1.py",
+      "truth_path": "data/models/20251218_033659_rubber_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.027205355465262367,
+        "hausdorff": 31.55377333109048,
+        "xi_l2": 879.617405142535,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 31553773.33109048,
+        "z_chamfer": 482370587.853618
+      },
+      "index": 22
+    },
+    {
+      "sample_id": "20251218_033659_slotted_bushing_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659_slotted_bushing_v1.py",
+      "truth_path": "data/models/20251218_033659_slotted_bushing_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9998841619668568,
+        "hausdorff": 7.905619488557404,
+        "xi_l2": 15.71865844867273,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 7905619.488557405,
+        "z_chamfer": 17601208.772642132
+      },
+      "index": 23
+    },
+    {
+      "sample_id": "20251218_033659_square_spaced_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659_square_spaced_plate_v1.py",
+      "truth_path": "data/models/20251218_033659_square_spaced_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 6,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.0030449687259080866,
+        "hausdorff": 31.23050956983198,
+        "xi_l2": 674.9369815738203,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 31230509.569831982,
+        "z_chamfer": 613287092.2233211
+      },
+      "index": 24
+    },
+    {
+      "sample_id": "20251218_033659_standoff_spacer_type_v1",
+      "generated_path": "generated/gpt-4o/20251218_033659_standoff_spacer_type_v1.py",
+      "truth_path": "data/models/20251218_033659_standoff_spacer_type_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "Standard_Failure",
+        "error_msg": "There are no suitable edges for chamfer or fillet"
+      },
+      "index": 25
+    },
+    {
+      "sample_id": "20251218_033700__box_with_gro_v1",
+      "generated_path": "generated/gpt-4o/20251218_033700__box_with_gro_v1.py",
+      "truth_path": "data/models/20251218_033700__box_with_gro_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.043611830637562174,
+        "hausdorff": 11.61567953954505,
+        "xi_l2": 26.75429355686742,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 11615679.539545052,
+        "z_chamfer": 18577439.932646
+      },
+      "index": 26
+    },
+    {
+      "sample_id": "20251218_033700__wall_bracket_with_gusset_v1",
+      "generated_path": "generated/gpt-4o/20251218_033700__wall_bracket_with_gusset_v1.py",
+      "truth_path": "data/models/20251218_033700__wall_bracket_with_gusset_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 6,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 3.08693905965075,
+        "hausdorff": 55.73374202401988,
+        "xi_l2": 1045.182416956438,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 55733742.02401988,
+        "z_chamfer": 979188846.4546326
+      },
+      "index": 27
+    },
+    {
+      "sample_id": "20251218_033700_brass_threaded_orifice_flange_v1",
+      "generated_path": "generated/gpt-4o/20251218_033700_brass_threaded_orifice_flange_v1.py",
+      "truth_path": "data/models/20251218_033700_brass_threaded_orifice_flange_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.29670803140230934,
+        "hausdorff": 19.646882704388503,
+        "xi_l2": 11.776426303127954,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 19646882.704388503,
+        "z_chamfer": 262380541.46244952
+      },
+      "index": 28
+    },
+    {
+      "sample_id": "20251218_033700_vented_split_v1",
+      "generated_path": "generated/gpt-4o/20251218_033700_vented_split_v1.py",
+      "truth_path": "data/models/20251218_033700_vented_split_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 1,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.03492266219984362,
+        "hausdorff": 15.528683137986942,
+        "xi_l2": 15.400261375299847,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 15528683.137986943,
+        "z_chamfer": 275333931.1720531
+      },
+      "index": 29
+    },
+    {
+      "sample_id": "20251218_033701_base_plate_with_slots_v1",
+      "generated_path": "generated/gpt-4o/20251218_033701_base_plate_with_slots_v1.py",
+      "truth_path": "data/models/20251218_033701_base_plate_with_slots_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.020126532483666044,
+        "hausdorff": 22.0,
+        "xi_l2": 22.957248071867298,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 22000000.0,
+        "z_chamfer": 258274070.57951137
+      },
+      "index": 30
+    },
+    {
+      "sample_id": "20251218_033701_hollow_torus_v1",
+      "generated_path": "generated/gpt-4o/20251218_033701_hollow_torus_v1.py",
+      "truth_path": "data/models/20251218_033701_hollow_torus_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9761267585362158,
+        "hausdorff": 50.00000000000001,
+        "xi_l2": 104.19456133475924,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 50000000.00000001,
+        "z_chamfer": 2785566194.556589
+      },
+      "index": 31
+    },
+    {
+      "sample_id": "20251218_033701_step_pulley_with_keyway_v1",
+      "generated_path": "generated/gpt-4o/20251218_033701_step_pulley_with_keyway_v1.py",
+      "truth_path": "data/models/20251218_033701_step_pulley_with_keyway_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 6,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.04193876217225312,
+        "hausdorff": 5.5901699437494745,
+        "xi_l2": 6.770626958037765,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 5590169.943749474,
+        "z_chamfer": 9936177.841249617
+      },
+      "index": 32
+    },
+    {
+      "sample_id": "20251218_033701_thick_spacer_v1",
+      "generated_path": "generated/gpt-4o/20251218_033701_thick_spacer_v1.py",
+      "truth_path": "data/models/20251218_033701_thick_spacer_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 5,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.10523836009485357,
+        "hausdorff": 3.2277180012927844,
+        "xi_l2": 21.899174462032267,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 3227718.0012927847,
+        "z_chamfer": 3859690.5713872393
+      },
+      "index": 33
+    },
+    {
+      "sample_id": "20251218_033702_h_beam_bridge_support_v1",
+      "generated_path": "generated/gpt-4o/20251218_033702_h_beam_bridge_support_v1.py",
+      "truth_path": "data/models/20251218_033702_h_beam_bridge_support_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 6,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.10138462371140386,
+        "hausdorff": 18.187593632352165,
+        "xi_l2": 16.718900729450763,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 18187593.632352166,
+        "z_chamfer": 151596446.87657836
+      },
+      "index": 34
+    },
+    {
+      "sample_id": "20251218_033702_hollow_core_beam_v1",
+      "generated_path": "generated/gpt-4o/20251218_033702_hollow_core_beam_v1.py",
+      "truth_path": "data/models/20251218_033702_hollow_core_beam_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.7313082345311779,
+        "hausdorff": 91.14100423737749,
+        "xi_l2": 48.876323942605914,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 91141004.2373775,
+        "z_chamfer": 5428888139.447343
+      },
+      "index": 35
+    },
+    {
+      "sample_id": "20251218_033702_hose_clamp_stainless_v1",
+      "generated_path": "generated/gpt-4o/20251218_033702_hose_clamp_stainless_v1.py",
+      "truth_path": "data/models/20251218_033702_hose_clamp_stainless_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.03485049662562241,
+        "hausdorff": 1.0,
+        "xi_l2": 1014.5366925626831,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 1000000.0,
+        "z_chamfer": 620706.6903842121
+      },
+      "index": 36
+    },
+    {
+      "sample_id": "20251218_033702_perforated_mounting_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033702_perforated_mounting_plate_v1.py",
+      "truth_path": "data/models/20251218_033702_perforated_mounting_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 37
+    },
+    {
+      "sample_id": "20251218_033703_split_panel_mounted_housing_v1",
+      "generated_path": "generated/gpt-4o/20251218_033703_split_panel_mounted_housing_v1.py",
+      "truth_path": "data/models/20251218_033703_split_panel_mounted_housing_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.4481990286883931,
+        "hausdorff": 15.0,
+        "xi_l2": 207.85175123438344,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 15000000.0,
+        "z_chamfer": 13412241.472649591
+      },
+      "index": 38
+    },
+    {
+      "sample_id": "20251218_033704__clevis_bolt_v1",
+      "generated_path": "generated/gpt-4o/20251218_033704__clevis_bolt_v1.py",
+      "truth_path": "data/models/20251218_033704__clevis_bolt_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 1.6498163238234944,
+        "hausdorff": 24.914473695876424,
+        "xi_l2": 31.14808007819192,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 24914473.695876427,
+        "z_chamfer": 244370764.40961438
+      },
+      "index": 39
+    },
+    {
+      "sample_id": "20251218_033704_machine_screw_unc_thread_v1",
+      "generated_path": "generated/gpt-4o/20251218_033704_machine_screw_unc_thread_v1.py",
+      "truth_path": "data/models/20251218_033704_machine_screw_unc_thread_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 2.279209465444586,
+        "hausdorff": 18.188302797405708,
+        "xi_l2": 34.55400985331655,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 18188302.79740571,
+        "z_chamfer": 106125786.16058907
+      },
+      "index": 40
+    },
+    {
+      "sample_id": "20251218_033704_quick_disconnect_adapter_v1",
+      "generated_path": "generated/gpt-4o/20251218_033704_quick_disconnect_adapter_v1.py",
+      "truth_path": "data/models/20251218_033704_quick_disconnect_adapter_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 5,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.20583669100209845,
+        "hausdorff": 14.679490886946335,
+        "xi_l2": 10.995528294971482,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 14679490.886946335,
+        "z_chamfer": 56375748.84450831
+      },
+      "index": 41
+    },
+    {
+      "sample_id": "20251218_033704_ring_retainer_clip_v1",
+      "generated_path": "generated/gpt-4o/20251218_033704_ring_retainer_clip_v1.py",
+      "truth_path": "data/models/20251218_033704_ring_retainer_clip_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'(' was never closed (<string>, line 1)"
+      },
+      "index": 42
+    },
+    {
+      "sample_id": "20251218_033704_square_ended_tube_v1",
+      "generated_path": "generated/gpt-4o/20251218_033704_square_ended_tube_v1.py",
+      "truth_path": "data/models/20251218_033704_square_ended_tube_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.004075046312056016,
+        "hausdorff": 21.09535165984169,
+        "xi_l2": 27.37694217728812,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 21095351.65984169,
+        "z_chamfer": 149079864.12082386
+      },
+      "index": 43
+    },
+    {
+      "sample_id": "20251218_033705_base_reinforcement_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033705_base_reinforcement_plate_v1.py",
+      "truth_path": "data/models/20251218_033705_base_reinforcement_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 44
+    },
+    {
+      "sample_id": "20251218_033705_box_with_beveled_corners_v1",
+      "generated_path": "generated/gpt-4o/20251218_033705_box_with_beveled_corners_v1.py",
+      "truth_path": "data/models/20251218_033705_box_with_beveled_corners_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.016827006331833056,
+        "hausdorff": 3.6055512754639976,
+        "xi_l2": 14.188071800394615,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 3605551.275463998,
+        "z_chamfer": 8553846.30480794
+      },
+      "index": 45
+    },
+    {
+      "sample_id": "20251218_033705_dowel_pin_with_hex_head_v1",
+      "generated_path": "generated/gpt-4o/20251218_033705_dowel_pin_with_hex_head_v1.py",
+      "truth_path": "data/models/20251218_033705_dowel_pin_with_hex_head_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 3.0974265943598995,
+        "hausdorff": 11.180756885827341,
+        "xi_l2": 26473.61113269478,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 11180756.885827342,
+        "z_chamfer": 166657246.53848448
+      },
+      "index": 46
+    },
+    {
+      "sample_id": "20251218_033705_split_panel_cover_housing_v1",
+      "generated_path": "generated/gpt-4o/20251218_033705_split_panel_cover_housing_v1.py",
+      "truth_path": "data/models/20251218_033705_split_panel_cover_housing_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.11278684681208932,
+        "hausdorff": 36.12472415068546,
+        "xi_l2": 1081.0050230990123,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 36124724.15068546,
+        "z_chamfer": 363822684.73297477
+      },
+      "index": 47
+    },
+    {
+      "sample_id": "20251218_033706_hat_channel_rail_support_v1",
+      "generated_path": "generated/gpt-4o/20251218_033706_hat_channel_rail_support_v1.py",
+      "truth_path": "data/models/20251218_033706_hat_channel_rail_support_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.027036786305138786,
+        "hausdorff": 9.776589470366856,
+        "xi_l2": 80.53175926600149,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 9776589.470366856,
+        "z_chamfer": 13840463.893564068
+      },
+      "index": 48
+    },
+    {
+      "sample_id": "20251218_033706_square_profile_v1",
+      "generated_path": "generated/gpt-4o/20251218_033706_square_profile_v1.py",
+      "truth_path": "data/models/20251218_033706_square_profile_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.1155428552061924,
+        "hausdorff": 6.964570434575522,
+        "xi_l2": 21.91415201157642,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 6964570.434575522,
+        "z_chamfer": 14087863.400489014
+      },
+      "index": 49
+    },
+    {
+      "sample_id": "20251218_033707_channel_cross_beam_v1",
+      "generated_path": "generated/gpt-4o/20251218_033707_channel_cross_beam_v1.py",
+      "truth_path": "data/models/20251218_033707_channel_cross_beam_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.02616629479760582,
+        "hausdorff": 3.605551275463997,
+        "xi_l2": 976.0370002379835,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 3605551.2754639974,
+        "z_chamfer": 8881772.578306934
+      },
+      "index": 50
+    },
+    {
+      "sample_id": "20251218_033707_cover_adapter_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033707_cover_adapter_plate_v1.py",
+      "truth_path": "data/models/20251218_033707_cover_adapter_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.044869107217247524,
+        "hausdorff": 20.05617112013158,
+        "xi_l2": 14.643923716628901,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 20056171.120131582,
+        "z_chamfer": 81596312.58584908
+      },
+      "index": 51
+    },
+    {
+      "sample_id": "20251218_033708_square_reducing_stainless_flpare_v1",
+      "generated_path": "generated/gpt-4o/20251218_033708_square_reducing_stainless_flpare_v1.py",
+      "truth_path": "data/models/20251218_033708_square_reducing_stainless_flpare_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 6.122591068900286,
+        "hausdorff": 80.77747210701756,
+        "xi_l2": 17.33760974266766,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 80777472.10701756,
+        "z_chamfer": 615377858.2399255
+      },
+      "index": 52
+    },
+    {
+      "sample_id": "20251218_033709__cube_with_ridge_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709__cube_with_ridge_v1.py",
+      "truth_path": "data/models/20251218_033709__cube_with_ridge_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.3337614637322015,
+        "hausdorff": 26.334388164527386,
+        "xi_l2": 33.32589065749697,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 26334388.164527386,
+        "z_chamfer": 224861298.3054963
+      },
+      "index": 53
+    },
+    {
+      "sample_id": "20251218_033709_angle_iron_frame_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_angle_iron_frame_v1.py",
+      "truth_path": "data/models/20251218_033709_angle_iron_frame_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.8988584459425272,
+        "hausdorff": 57.72984789370324,
+        "xi_l2": 22.216900638128603,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 57729847.89370324,
+        "z_chamfer": 2391655781.499631
+      },
+      "index": 54
+    },
+    {
+      "sample_id": "20251218_033709_composite_shapes_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_composite_shapes_v1.py",
+      "truth_path": "data/models/20251218_033709_composite_shapes_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.014037885270193326,
+        "hausdorff": 9.458411865117045,
+        "xi_l2": 35.253176057585556,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 9458411.865117045,
+        "z_chamfer": 32731361.27835868
+      },
+      "index": 55
+    },
+    {
+      "sample_id": "20251218_033709_frame_mount_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_frame_mount_plate_v1.py",
+      "truth_path": "data/models/20251218_033709_frame_mount_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 56
+    },
+    {
+      "sample_id": "20251218_033709_keyed_coupling_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_keyed_coupling_v1.py",
+      "truth_path": "data/models/20251218_033709_keyed_coupling_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.011823307863956944,
+        "hausdorff": 15.20690632574555,
+        "xi_l2": 16.135618716023647,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 15206906.32574555,
+        "z_chamfer": 40206770.25562027
+      },
+      "index": 57
+    },
+    {
+      "sample_id": "20251218_033709_tabs_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_tabs_bracket_v1.py",
+      "truth_path": "data/models/20251218_033709_tabs_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 5,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.3560291253633689,
+        "hausdorff": 22.999189156144137,
+        "xi_l2": 19.72852368501726,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 22999189.15614414,
+        "z_chamfer": 241838092.72404847
+      },
+      "index": 58
+    },
+    {
+      "sample_id": "20251218_033709_wall_mount_bracket_with_tabs_v1",
+      "generated_path": "generated/gpt-4o/20251218_033709_wall_mount_bracket_with_tabs_v1.py",
+      "truth_path": "data/models/20251218_033709_wall_mount_bracket_with_tabs_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.1679586428664002,
+        "hausdorff": 21.403654985396734,
+        "xi_l2": 64.93341384722649,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 21403654.985396735,
+        "z_chamfer": 170744250.4441669
+      },
+      "index": 59
+    },
+    {
+      "sample_id": "20251218_033710_perforated_mount_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033710_perforated_mount_plate_v1.py",
+      "truth_path": "data/models/20251218_033710_perforated_mount_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 60
+    },
+    {
+      "sample_id": "20251218_033711__cable_shelf_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033711__cable_shelf_bracket_v1.py",
+      "truth_path": "data/models/20251218_033711__cable_shelf_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.29960501220532754,
+        "hausdorff": 37.62697651173042,
+        "xi_l2": 54.1952179194222,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 37626976.51173042,
+        "z_chamfer": 1538146939.6206076
+      },
+      "index": 61
+    },
+    {
+      "sample_id": "20251218_033711__cable_t_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033711__cable_t_bracket_v1.py",
+      "truth_path": "data/models/20251218_033711__cable_t_bracket_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 3,
+        "has_result": false,
+        "error_type": "Standard_Failure",
+        "error_msg": "BRep_API: command not done"
+      },
+      "index": 62
+    },
+    {
+      "sample_id": "20251218_033711__input_shaft_v1",
+      "generated_path": "generated/gpt-4o/20251218_033711__input_shaft_v1.py",
+      "truth_path": "data/models/20251218_033711__input_shaft_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.02041009279446325,
+        "hausdorff": 105.27091184842148,
+        "xi_l2": 24.201653203564376,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 105270911.84842148,
+        "z_chamfer": 9419136701.017912
+      },
+      "index": 63
+    },
+    {
+      "sample_id": "20251218_033711_clip_retainer_spring_clip_v1",
+      "generated_path": "generated/gpt-4o/20251218_033711_clip_retainer_spring_clip_v1.py",
+      "truth_path": "data/models/20251218_033711_clip_retainer_spring_clip_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "TypeError",
+        "error_msg": "Workplane.hole() got an unexpected keyword argument 'offset'"
+      },
+      "index": 64
+    },
+    {
+      "sample_id": "20251218_033713_ceiling_mount_z_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033713_ceiling_mount_z_bracket_v1.py",
+      "truth_path": "data/models/20251218_033713_ceiling_mount_z_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 7,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 4.445822676702766,
+        "hausdorff": 29.094935201963985,
+        "xi_l2": 34.88170344710874,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 29094935.201963987,
+        "z_chamfer": 251585818.84314328
+      },
+      "index": 65
+    },
+    {
+      "sample_id": "20251218_033713_edge_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033713_edge_plate_v1.py",
+      "truth_path": "data/models/20251218_033713_edge_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 66
+    },
+    {
+      "sample_id": "20251218_033713_thick_wall_right_angle_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033713_thick_wall_right_angle_bracket_v1.py",
+      "truth_path": "data/models/20251218_033713_thick_wall_right_angle_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.3471730141852575,
+        "hausdorff": 40.190172928217166,
+        "xi_l2": 34.4763827244692,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 40190172.928217165,
+        "z_chamfer": 832325170.068722
+      },
+      "index": 67
+    },
+    {
+      "sample_id": "20251218_033713_z_bracket_for_shelves_v1",
+      "generated_path": "generated/gpt-4o/20251218_033713_z_bracket_for_shelves_v1.py",
+      "truth_path": "data/models/20251218_033713_z_bracket_for_shelves_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.7477306757403153,
+        "hausdorff": 53.67727638395972,
+        "xi_l2": 25.92548185064404,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 53677276.383959725,
+        "z_chamfer": 2098098005.5834332
+      },
+      "index": 68
+    },
+    {
+      "sample_id": "20251218_033714__mounting_thick_rectangular_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033714__mounting_thick_rectangular_plate_v1.py",
+      "truth_path": "data/models/20251218_033714__mounting_thick_rectangular_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 69
+    },
+    {
+      "sample_id": "20251218_033714_channel_girder_v1",
+      "generated_path": "generated/gpt-4o/20251218_033714_channel_girder_v1.py",
+      "truth_path": "data/models/20251218_033714_channel_girder_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.41561415766057924,
+        "hausdorff": 38.06510919278527,
+        "xi_l2": 159.6545466537722,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 38065109.19278527,
+        "z_chamfer": 1814493381.4896092
+      },
+      "index": 70
+    },
+    {
+      "sample_id": "20251218_033715__threaded_plug_fitting_v1",
+      "generated_path": "generated/gpt-4o/20251218_033715__threaded_plug_fitting_v1.py",
+      "truth_path": "data/models/20251218_033715__threaded_plug_fitting_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.08584012623647966,
+        "hausdorff": 10.198039027185569,
+        "xi_l2": 125.62800272980749,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 10198039.027185569,
+        "z_chamfer": 31482879.10742302
+      },
+      "index": 71
+    },
+    {
+      "sample_id": "20251218_033715_hollow_angle_support_v1",
+      "generated_path": "generated/gpt-4o/20251218_033715_hollow_angle_support_v1.py",
+      "truth_path": "data/models/20251218_033715_hollow_angle_support_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 3.8565358649350654,
+        "hausdorff": 43.02324952859791,
+        "xi_l2": 22.222924173614675,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 43023249.52859791,
+        "z_chamfer": 1741720545.1739318
+      },
+      "index": 72
+    },
+    {
+      "sample_id": "20251218_033715_tapered_post_base_v1",
+      "generated_path": "generated/gpt-4o/20251218_033715_tapered_post_base_v1.py",
+      "truth_path": "data/models/20251218_033715_tapered_post_base_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'(' was never closed (<string>, line 1)"
+      },
+      "index": 73
+    },
+    {
+      "sample_id": "20251218_033717_pyramid_with_notches_v1",
+      "generated_path": "generated/gpt-4o/20251218_033717_pyramid_with_notches_v1.py",
+      "truth_path": "data/models/20251218_033717_pyramid_with_notches_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 1.9940000239518718,
+        "hausdorff": 35.28462838120872,
+        "xi_l2": 42.515373197943404,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 35284628.38120872,
+        "z_chamfer": 928431799.5983874
+      },
+      "index": 74
+    },
+    {
+      "sample_id": "20251218_033717_reinforced_profile_v1",
+      "generated_path": "generated/gpt-4o/20251218_033717_reinforced_profile_v1.py",
+      "truth_path": "data/models/20251218_033717_reinforced_profile_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.01945062941075313,
+        "hausdorff": 83.35402027359429,
+        "xi_l2": 105.49078794187321,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 83354020.27359429,
+        "z_chamfer": 3577542373.0604577
+      },
+      "index": 75
+    },
+    {
+      "sample_id": "20251218_033718_cap_nut_with_spring_v1",
+      "generated_path": "generated/gpt-4o/20251218_033718_cap_nut_with_spring_v1.py",
+      "truth_path": "data/models/20251218_033718_cap_nut_with_spring_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "ValueError",
+        "error_msg": "Chamfer requires that edges be selected"
+      },
+      "index": 76
+    },
+    {
+      "sample_id": "20251218_033718_precision_wedge_cam_v1",
+      "generated_path": "generated/gpt-4o/20251218_033718_precision_wedge_cam_v1.py",
+      "truth_path": "data/models/20251218_033718_precision_wedge_cam_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'(' was never closed (<string>, line 1)"
+      },
+      "index": 77
+    },
+    {
+      "sample_id": "20251218_033718_pvc_crank_handle_v1",
+      "generated_path": "generated/gpt-4o/20251218_033718_pvc_crank_handle_v1.py",
+      "truth_path": "data/models/20251218_033718_pvc_crank_handle_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9999177613397295,
+        "hausdorff": 50.249328356207904,
+        "xi_l2": 8.72440094351198,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 50249328.35620791,
+        "z_chamfer": 1249909591.8921225
+      },
+      "index": 78
+    },
+    {
+      "sample_id": "20251218_033719_thick_wall_cable_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033719_thick_wall_cable_bracket_v1.py",
+      "truth_path": "data/models/20251218_033719_thick_wall_cable_bracket_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'(' was never closed (<string>, line 1)"
+      },
+      "index": 79
+    },
+    {
+      "sample_id": "20251218_033719_tilted_square_pyramid_v1",
+      "generated_path": "generated/gpt-4o/20251218_033719_tilted_square_pyramid_v1.py",
+      "truth_path": "data/models/20251218_033719_tilted_square_pyramid_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'(' was never closed (<string>, line 1)"
+      },
+      "index": 80
+    },
+    {
+      "sample_id": "20251218_033719_wedge_cam_linkage_pivot_v1",
+      "generated_path": "generated/gpt-4o/20251218_033719_wedge_cam_linkage_pivot_v1.py",
+      "truth_path": "data/models/20251218_033719_wedge_cam_linkage_pivot_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.34921348053565976,
+        "hausdorff": 16.060947204905133,
+        "xi_l2": 47.62944295934617,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 16060947.204905134,
+        "z_chamfer": 140984286.80655342
+      },
+      "index": 81
+    },
+    {
+      "sample_id": "20251218_033720__splined_end_shaft_v1",
+      "generated_path": "generated/gpt-4o/20251218_033720__splined_end_shaft_v1.py",
+      "truth_path": "data/models/20251218_033720__splined_end_shaft_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9999955692339125,
+        "hausdorff": 16.51032276532075,
+        "xi_l2": 16.77557475195165,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 16510322.765320752,
+        "z_chamfer": 49224184.45324364
+      },
+      "index": 82
+    },
+    {
+      "sample_id": "20251218_033721__pipe_z_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033721__pipe_z_bracket_v1.py",
+      "truth_path": "data/models/20251218_033721__pipe_z_bracket_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.024925205303235276,
+        "hausdorff": 53.142811915411066,
+        "xi_l2": 17.23760765473054,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 53142811.91541107,
+        "z_chamfer": 2012427046.193584
+      },
+      "index": 83
+    },
+    {
+      "sample_id": "20251218_033721_gusseted_circular_mounting_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033721_gusseted_circular_mounting_plate_v1.py",
+      "truth_path": "data/models/20251218_033721_gusseted_circular_mounting_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 5,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.009778911564625842,
+        "hausdorff": 19.000770016494485,
+        "xi_l2": 11.762836971968213,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 19000770.016494486,
+        "z_chamfer": 116614556.94544105
+      },
+      "index": 84
+    },
+    {
+      "sample_id": "20251218_033721_perforated_support_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033721_perforated_support_plate_v1.py",
+      "truth_path": "data/models/20251218_033721_perforated_support_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.02606941852300404,
+        "hausdorff": 21.712419029159925,
+        "xi_l2": 16.974679173944608,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 21712419.029159926,
+        "z_chamfer": 258009805.80753016
+      },
+      "index": 85
+    },
+    {
+      "sample_id": "20251218_033721_taper_pin_stainless_v1",
+      "generated_path": "generated/gpt-4o/20251218_033721_taper_pin_stainless_v1.py",
+      "truth_path": "data/models/20251218_033721_taper_pin_stainless_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.9997542756014838,
+        "hausdorff": 24.123443049170795,
+        "xi_l2": 23.914529432921718,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 24123443.049170796,
+        "z_chamfer": 53148709.971378386
+      },
+      "index": 86
+    },
+    {
+      "sample_id": "20251218_033721_tinned_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033721_tinned_plate_v1.py",
+      "truth_path": "data/models/20251218_033721_tinned_plate_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.010082765731789886,
+        "hausdorff": 7.87101196408482,
+        "xi_l2": 68.12613667760444,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 7871011.964084821,
+        "z_chamfer": 41564806.42457043
+      },
+      "index": 87
+    },
+    {
+      "sample_id": "20251218_033722__adjustable_step_pulley_for_precision_v1",
+      "generated_path": "generated/gpt-4o/20251218_033722__adjustable_step_pulley_for_precision_v1.py",
+      "truth_path": "data/models/20251218_033722__adjustable_step_pulley_for_precision_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 5,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.6660184663537478,
+        "hausdorff": 15.62049935181331,
+        "xi_l2": 7.178168739406536,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 15620499.35181331,
+        "z_chamfer": 144244688.44190374
+      },
+      "index": 88
+    },
+    {
+      "sample_id": "20251218_033722_corrugated_rectangular_thick_wall_tube_v1",
+      "generated_path": "generated/gpt-4o/20251218_033722_corrugated_rectangular_thick_wall_tube_v1.py",
+      "truth_path": "data/models/20251218_033722_corrugated_rectangular_thick_wall_tube_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.8341616300351885,
+        "hausdorff": 24.49489750948144,
+        "xi_l2": 22.653948298167546,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 24494897.50948144,
+        "z_chamfer": 652525232.8111547
+      },
+      "index": 89
+    },
+    {
+      "sample_id": "20251218_033722_t_profile_stand_v1",
+      "generated_path": "generated/gpt-4o/20251218_033722_t_profile_stand_v1.py",
+      "truth_path": "data/models/20251218_033722_t_profile_stand_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 2.7660201116408665,
+        "hausdorff": 26.589471600616662,
+        "xi_l2": 1132.412355593028,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 26589471.600616664,
+        "z_chamfer": 893132058.1897237
+      },
+      "index": 90
+    },
+    {
+      "sample_id": "20251218_033722_titanium_screw_v1",
+      "generated_path": "generated/gpt-4o/20251218_033722_titanium_screw_v1.py",
+      "truth_path": "data/models/20251218_033722_titanium_screw_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 3,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 5.0975502682598455,
+        "hausdorff": 8.440018504594997,
+        "xi_l2": 61.70414407735679,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 8440018.504594998,
+        "z_chamfer": 40279339.40725994
+      },
+      "index": 91
+    },
+    {
+      "sample_id": "20251218_033723_corner_bracket_with_angle_adjustment_v1",
+      "generated_path": "generated/gpt-4o/20251218_033723_corner_bracket_with_angle_adjustment_v1.py",
+      "truth_path": "data/models/20251218_033723_corner_bracket_with_angle_adjustment_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.007729309274787954,
+        "hausdorff": 24.388671675599987,
+        "xi_l2": 29.624514103937603,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 24388671.67559999,
+        "z_chamfer": 178521218.24988002
+      },
+      "index": 92
+    },
+    {
+      "sample_id": "20251218_033723_male_thread_adapter_v1",
+      "generated_path": "generated/gpt-4o/20251218_033723_male_thread_adapter_v1.py",
+      "truth_path": "data/models/20251218_033723_male_thread_adapter_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 1.058347672954546,
+        "hausdorff": 13.200378782444087,
+        "xi_l2": 7.605771080650082,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 13200378.782444088,
+        "z_chamfer": 75436691.28382835
+      },
+      "index": 93
+    },
+    {
+      "sample_id": "20251218_033723_reinforcement_spacer_square_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033723_reinforcement_spacer_square_plate_v1.py",
+      "truth_path": "data/models/20251218_033723_reinforcement_spacer_square_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 2,
+        "has_result": false,
+        "error_type": "SyntaxError",
+        "error_msg": "'[' was never closed (<string>, line 1)"
+      },
+      "index": 94
+    },
+    {
+      "sample_id": "20251218_033723_square_post_hollow_v1",
+      "generated_path": "generated/gpt-4o/20251218_033723_square_post_hollow_v1.py",
+      "truth_path": "data/models/20251218_033723_square_post_hollow_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.21182988418056034,
+        "hausdorff": 35.482389998420345,
+        "xi_l2": 34.60053673968273,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 35482389.99842035,
+        "z_chamfer": 1835644772.2291672
+      },
+      "index": 95
+    },
+    {
+      "sample_id": "20251218_033723_vertical_truncated_cylinder_v1",
+      "generated_path": "generated/gpt-4o/20251218_033723_vertical_truncated_cylinder_v1.py",
+      "truth_path": "data/models/20251218_033723_vertical_truncated_cylinder_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 2,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.48370197776736384,
+        "hausdorff": 31.255367795821677,
+        "xi_l2": 66.38564941716429,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 31255367.795821678,
+        "z_chamfer": 164355851.90933952
+      },
+      "index": 96
+    },
+    {
+      "sample_id": "20251218_033724__double_c_bracket_v1",
+      "generated_path": "generated/gpt-4o/20251218_033724__double_c_bracket_v1.py",
+      "truth_path": "data/models/20251218_033724__double_c_bracket_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "ValueError",
+        "error_msg": "Fillets requires that edges be selected"
+      },
+      "index": 97
+    },
+    {
+      "sample_id": "20251218_033724_hollow_square_column_v1",
+      "generated_path": "generated/gpt-4o/20251218_033724_hollow_square_column_v1.py",
+      "truth_path": "data/models/20251218_033724_hollow_square_column_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.5442890396784882,
+        "hausdorff": 20.074859899884732,
+        "xi_l2": 24.49554725612139,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 20074859.899884734,
+        "z_chamfer": 47273150.29939005
+      },
+      "index": 98
+    },
+    {
+      "sample_id": "20251218_033725_cryo_thermal_shock_restraint_mount_v1",
+      "generated_path": "generated/gpt-4o/20251218_033725_cryo_thermal_shock_restraint_mount_v1.py",
+      "truth_path": "data/models/20251218_033725_cryo_thermal_shock_restraint_mount_v1.py",
+      "status": "ok",
+      "code_runs": {
+        "success": true,
+        "n_steps_ok": 4,
+        "has_result": true,
+        "error_type": null,
+        "error_msg": null
+      },
+      "metrics": {
+        "vol_rel": 0.09651683810427869,
+        "hausdorff": 18.419315120907527,
+        "xi_l2": 20.322767329618316,
+        "p_value": 0.0,
+        "p_pc": 0.0,
+        "p_xi": 0.0,
+        "z_hausdorff": 18419315.120907526,
+        "z_chamfer": 100232640.8576595
+      },
+      "index": 99
+    },
+    {
+      "sample_id": "20251218_033725_ribs_plate_v1",
+      "generated_path": "generated/gpt-4o/20251218_033725_ribs_plate_v1.py",
+      "truth_path": "data/models/20251218_033725_ribs_plate_v1.py",
+      "status": "code_error",
+      "code_runs": {
+        "success": false,
+        "n_steps_ok": 1,
+        "has_result": false,
+        "error_type": "ValueError",
+        "error_msg": "Cannot convert object type <class 'cadquery.occ_impl.shapes.Compound'> to vector."
+      },
+      "index": 100
+    }
+  ]
+}

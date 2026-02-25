@@ -1,0 +1,67 @@
+{
+  "model": "google/gemma-3-27b-it",
+  "model_dir": "generated/gemma-3-27b-it",
+  "mode": "benchmark",
+  "started_at": "2026-02-25T20:13:05.402246+00:00",
+  "total": 1,
+  "succeeded": 1,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "index": 1,
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033650_brass_spacer_tube_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 10.913509250152856,
+      "response_id": "gen-1772050385-e8YppMPi36ajymHVEjYp",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 369,
+        "completion_tokens": 214,
+        "total_tokens": 583,
+        "cost": 8.6711e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.6711e-05,
+          "upstream_inference_prompt_cost": 4.3911e-05,
+          "upstream_inference_completions_cost": 4.28e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ],
+  "benchmark": {
+    "n_ok": 1,
+    "n_error": 0,
+    "latency_seconds": {
+      "min": 10.913509250152856,
+      "max": 10.913509250152856,
+      "mean": 10.913509250152856,
+      "median": 10.913509250152856
+    },
+    "usage_totals": {
+      "prompt_tokens": 369.0,
+      "completion_tokens": 214.0,
+      "total_tokens": 583.0,
+      "cost": 8.6711e-05,
+      "is_byok": 0.0
+    },
+    "usage_averages_per_ok": {
+      "prompt_tokens": 369.0,
+      "completion_tokens": 214.0,
+      "total_tokens": 583.0,
+      "cost": 8.6711e-05,
+      "is_byok": 0.0
+    }
+  },
+  "finished_at": "2026-02-25T20:13:16.317945+00:00"
+}

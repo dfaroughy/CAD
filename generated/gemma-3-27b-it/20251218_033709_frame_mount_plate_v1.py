@@ -1,0 +1,22 @@
+# model used: google/gemma-3-27b-it
+import cadquery as cq
+
+step1 = cq.Workplane("XY").box(80, 60, 5)
+step2 = cq.Workplane("XY").circle(5).translate((15, 15, 0))
+step3 = cq.Workplane("XY").circle(5).translate((65, 15, 0))
+step4 = cq.Workplane("XY").circle(5).translate((15, 45, 0))
+step5 = cq.Workplane("XY").circle(5).translate((65, 45, 0))
+step6 = step1.cut(cq.Workplane("XY").eachpoint([step2, step3, step4, step5], lambda loc: loc.circle(4.8).extrude(5)))
+step7 = cq.Workplane("YZ").box(80, 5, 60)
+step8 = cq.Workplane("YZ").circle(5).translate((15, 0, 15))
+step9 = cq.Workplane("YZ").circle(5).translate((65, 0, 15))
+step10 = cq.Workplane("YZ").circle(5).translate((15, 0, 45))
+step11 = cq.Workplane("YZ").circle(5).translate((65, 0, 45))
+step12 = step7.cut(cq.Workplane("YZ").eachpoint([step8, step9, step10, step11], lambda loc: loc.circle(4.8).extrude(5)))
+step13 = cq.Workplane("XZ").box(80, 5, 60)
+step14 = cq.Workplane("XZ").circle(5).translate((15, 0, 15))
+step15 = cq.Workplane("XZ").circle(5).translate((65, 0, 15))
+step16 = cq.Workplane("XZ").circle(5).translate((15, 0, 45))
+step17 = cq.Workplane("XZ").circle(5).translate((65, 0, 45))
+step18 = step13.cut(cq.Workplane("XZ").eachpoint([step14, step15, step16, step17], lambda loc: loc.circle(4.8).extrude(5)))
+result = step6.union(step12).union(step18)

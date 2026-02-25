@@ -1,0 +1,187 @@
+{
+  "model": "openai/gpt-4o",
+  "model_dir": "generated/gpt-4o",
+  "mode": "benchmark",
+  "started_at": "2026-02-25T19:42:46.690440+00:00",
+  "total": 5,
+  "succeeded": 5,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "index": 1,
+      "sample_id": "20251218_033650_brass_spacer_tube_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033650_brass_spacer_tube_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 4.4825402912683785,
+      "response_id": "gen-1772048567-dKZ2wLnzJkL2b9d1YxCE",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 118,
+        "total_tokens": 1332,
+        "cost": 0.004215,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004215,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00118
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 2,
+      "sample_id": "20251218_033651_dowel_pin_brass_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033651_dowel_pin_brass_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 3.9776461250148714,
+      "response_id": "gen-1772048571-YaC6RbNZQMvs0PI7qher",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 95,
+        "total_tokens": 1309,
+        "cost": 0.003985,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003985,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00095
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 3,
+      "sample_id": "20251218_033652_grip_handle_spacer_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033652_grip_handle_spacer_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 4.1968463328666985,
+      "response_id": "gen-1772048575-LyeOZXB57nJvAiMcUCpy",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 115,
+        "total_tokens": 1329,
+        "cost": 0.004185,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004185,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00115
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 4,
+      "sample_id": "20251218_033652_hook_bracket_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033652_hook_bracket_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 4.452824166975915,
+      "response_id": "gen-1772048579-LuuHjxKJ5Z7pvIzArcSo",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 99,
+        "total_tokens": 1313,
+        "cost": 0.004025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.004025,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00099
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "index": 5,
+      "sample_id": "20251218_033654__sliding_joint_v1",
+      "drawing_path": "/Users/dario/Dropbox/PROJECTS/ML/CAD/data/drawings/20251218_033654__sliding_joint_v1.png",
+      "output_path": null,
+      "status": "ok",
+      "latency_seconds": 3.58613545820117,
+      "response_id": "gen-1772048584-wmUFBB1sAmWw8yFcysTp",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 87,
+        "total_tokens": 1301,
+        "cost": 0.003905,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.003905,
+          "upstream_inference_prompt_cost": 0.003035,
+          "upstream_inference_completions_cost": 0.00087
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ],
+  "benchmark": {
+    "n_ok": 5,
+    "n_error": 0,
+    "latency_seconds": {
+      "min": 3.58613545820117,
+      "max": 4.4825402912683785,
+      "mean": 4.139198474865407,
+      "median": 4.1968463328666985
+    },
+    "usage_totals": {
+      "prompt_tokens": 6070.0,
+      "completion_tokens": 514.0,
+      "total_tokens": 6584.0,
+      "cost": 0.020315,
+      "is_byok": 0.0
+    },
+    "usage_averages_per_ok": {
+      "prompt_tokens": 1214.0,
+      "completion_tokens": 102.8,
+      "total_tokens": 1316.8,
+      "cost": 0.004063,
+      "is_byok": 0.0
+    }
+  },
+  "finished_at": "2026-02-25T19:43:07.397750+00:00"
+}
