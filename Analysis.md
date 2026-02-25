@@ -26,6 +26,9 @@
 
 **Verdict:** Qwen2.5-VL-72B is the most reliable model overall (98% code pass, competitive shape quality). GPT-4o produces the best shape quality among successful runs (median hausdorff 20.07 vs Qwen's 26.65, median xi_l2 33 vs 43) but drops 23% of samples at the code stage. Claude-3.5-Sonnet is disqualified from shape comparison by its 93% code failure rate — this is a configuration artifact, not a capability ceiling (see §2). No model achieves statistically equivalent reconstruction on any but the simplest geometry.
 
+![alt text](image.png)
+
+
 ---
 
 ## 2. Failure Mode Analysis
