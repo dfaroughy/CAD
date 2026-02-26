@@ -11,6 +11,9 @@
 
 **On p-values:** essentially all are 0 across all models. The p-value test is saturated, meaning every reconstructed shape is statistically distinguishable from ground truth. The only exception is one GPT-4o sample (`cube_with_beveled_corners`, to see other results go to `/Analysis/results/view_comparison`) which reaches p≈1 with hausdorff=0 and vol_rel=0 indicating a near-perfect reconstruction. The p-value is best treated as a "perfect match" detector rather than a graded similarity score. The continuous metrics (hausdorff, $\xi_{L2}(r)$) carry more information in the non-perfect regime.
 
+![GPT-4o near-perfect reconstruction: cube with beveled corners](Analysis/results/view_comparison/20251218_033654_cube_with_beveled_corners_v1.png)
+
+
 ---
 
 ## 1. Systematic Evaluation
@@ -22,9 +25,12 @@
 2. **Hausdorff distance**: worst-case point-level deviation from ground truth surface (mm)
 3. **vol_rel**: relative volume difference, catches gross scale/topology errors
 4. **xi_l2**: Landy-Szalay 2PCF L2 norm, that is common in numerical cosmology and has the benefit of being invaraint under rotations and reflexions. This may be a new metric in this context? 
-5. **p_value**: combined significance test saturates quickly, useful only if the model perfomred perfectly. 
+5. **p_value**: combined significance test saturates quickly, useful only if the model perfomred perfectly. Choice of these metrics are motivated by the correlation matrix:
 
-**Verdict:** Qwen2.5-VL-72B is the most reliable model overall (98% code pass, competitive shape quality). GPT-4o produces the best shape quality among successful runs (median hausdorff 20.07 vs Qwen's 26.65, median xi_l2 33 vs 43) but drops 23% of samples at the code stage. Claude-3.5-Sonnet is disqualified from shape comparison by its 93% code failure rate — this is a configuration artifact, not a capability ceiling (see §2). No model achieves statistically equivalent reconstruction on any but the simplest geometry.
+![alt text](image-1.png)
+
+
+**Verdict:** Qwen2.5-VL-72B is the most reliable model overall (98% code pass, competitive shape quality). GPT-4o produces the best shape quality among successful runs (median hausdorff 20.07 vs Qwen's 26.65, median xi_l2 33 vs 43) but drops 23% of samples at the code stage. Claude-3.5-Sonnet is disqualified from shape comparison by its 93% code failure rate because of the limited tokens (see below). No model achieves statistically equivalent reconstruction on any but the simplest geometry.
 
 ![alt text](image.png)
 
@@ -54,7 +60,10 @@
 
 ## 3. Strategic Roadmap
 
+ Disclaimer: My prompting was far from ideal. Before fixing anything I would first improve the system and user prompting and re-analyze as above.
+
+
 The benchmark exposes two problems requiring different interventions. 
 
+ For the harder problem of achieving dimensional accuracy and complex geometry supervised fine-tuning on (drawing image, ground-truth .py) pairs is the critical next step: the model needs to learn to read dimension annotations from the drawing, not just infer rough shape. This calls for chain-of-thought fine-tuning where the reasoning trace explicitly extracts each annotated dimension before writing a CadQuery line. Specific to repeated-feature failures, the fine-tuning dataset should oversample parts with `polarArray`, `shell`, and boolean operations, as these are the geometric classes where all models currently collapse. Starting from Qwen2.5-VL-72B as the base (highest code reliability) with LoRA fine-tuning on this dataset is the highest-leverage single action.
 
- For the harder problem — dimensional accuracy and complex geometry — **supervised fine-tuning on (drawing image, ground-truth .py) pairs** is the critical next step: the model needs to learn to read tolerances and dimension annotations from the drawing, not just infer rough shape; this calls for chain-of-thought fine-tuning where the reasoning trace explicitly extracts each annotated dimension before writing a CadQuery line. Specific to repeated-feature failures, the fine-tuning dataset should oversample parts with `polarArray`, `shell`, and boolean operations, as these are the geometric classes where all models currently collapse. Starting from Qwen2.5-VL-72B as the base (highest code reliability) with LoRA fine-tuning on this dataset is the highest-leverage single action.
