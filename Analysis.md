@@ -53,6 +53,9 @@ The precise meaning of thiese metrics are descibed below.
 
 **CAD sequence generation seems to be the main bottleneck, not drawing extraction.** All models produce roughly the right shape class (a bracket looks like a bracket), which means visual feature extraction from the drawing works. The failures come in translating that understanding into valid, dimensionally-correct CadQuery chains.
 
+![alt text](figs/code_errors.png)
+
+
 ### Shape quality failure (in the successful runs)
 
 - **Dimensional inaccuracy**: median hausdorff 20–37 units across all models implies the drawing qualitatively but don't extract precise dimensions from the annotations.
