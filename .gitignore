@@ -31,3 +31,5 @@ build/
 .idea/
 *.swp
 *.swo
+data/draings
+data/models
