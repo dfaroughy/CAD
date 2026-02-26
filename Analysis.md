@@ -27,12 +27,12 @@
 4. **xi_l2**: Landy-Szalay 2PCF L2 norm, that is common in numerical cosmology and has the benefit of being invaraint under rotations and reflexions. This may be a new metric in this context? 
 5. **p_value**: combined significance test saturates quickly, useful only if the model perfomred perfectly. Choice of these metrics are motivated by the correlation matrix:
 
-![alt text](image-1.png)
+![alt text](figs/corrleation_matrix.png)
 
 
 **Verdict:** Qwen2.5-VL-72B is the most reliable model overall (98% code pass, competitive shape quality). GPT-4o produces the best shape quality among successful runs (median hausdorff 20.07 vs Qwen's 26.65, median xi_l2 33 vs 43) but drops 23% of samples at the code stage. Claude-3.5-Sonnet is disqualified from shape comparison by its 93% code failure rate because of the limited tokens (see below). No model achieves statistically equivalent reconstruction on any but the simplest geometry.
 
-![alt text](image.png)
+![alt text](figs/corr_matrix.png)
 
 
 ---
