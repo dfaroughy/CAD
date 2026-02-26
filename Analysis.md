@@ -21,11 +21,11 @@
 **Models benchmarked:** GPT-4o (closed), Claude-3.5-Sonnet (closed), Qwen2.5-VL-72B (open), Gemma-3-27B-IT (open) — 100 engineering drawings each.
 
 **Scoring criteria (in order of priority):**
-1. **Code pass rate**: does the output execute at all? A prerequisite for everything else
+1. **Code pass rate**: does the output execute at all? 
 2. **Hausdorff distance**: worst-case point-level deviation from ground truth surface (mm)
-3. **vol_rel**: relative volume difference, catches gross scale/topology errors
-4. **xi_l2**: Landy-Szalay 2PCF L2 norm, that is common in numerical cosmology and has the benefit of being invaraint under rotations and reflexions. This may be a new metric in this context? 
-5. **p_value**: combined significance test saturates quickly, useful only if the model perfomred perfectly. Choice of these metrics are motivated by the correlation matrix:
+3. **vol_rel**: relative volume difference, catches broad scale/topology errors
+4. **xi_l2**: Landy-Szalay 2-point correlation function (L2 norm), that is common in astrophysics and cosmology and has the benefit of being invaraint under rotations and reflexions. This may be a new metric in this context? 
+5. **p_value**: combined significance test of all the metrics above. It saturates quickly, useful only if the model perfomred perfectly. Choice of these metrics are motivated by the correlation matrix:
 
 ![alt text](figs/corrleation_matrix.png)
 
